@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$web_title}</title>
+	<import type='css' file='css.style'/>
+</head>
+<body>
+	<div class=""></div>
+	<div class="contrace">
+		<div class="header">
+			<div class="web_title"><span>{$web_title}</span></div>
+			<div class="qianming"><span><present name="qianming">{$qianming}</present></span></div>
+			<div class="head-logo"><img src='__PUBLIC__/images/logo-back.jpg'></div>
+			<div class="nav">
+				<ul>
+					<li><a href="{:U('Index/Index')}">首页</a></li>
+					<li><a href="{:U('Index/photo')}">相册</a></li>
+					<li><a href="{:U('Index/about')}">关于我</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- header  end-->
+		<div class="content">
+			
+			<div class="left">
+				<volist name="list" id="lvo">
+				<div class="list-con">
+					<div class="title">
+						<div class="t center-t"><span class="m">May</span><span class="d">{$lvo.ctime|date="d",###}</span></div>
+						<h3 class="h3"><a href="{:U('View/Index',array('wid' => $lvo['wid']))}">{$lvo.title}</a></h3>
+					</div>
+					<div class="con"><p>{$lvo.shart}</p></div>
+					<div class="yuedu"><a href="{:U('View/Index',array('wid' => $lvo['wid']))}">阅读全文 >></a></a></a></div>
+				</div>
+				</volist>
+				<div class="page">{$page}</div>
+			</div>
+			<!-- left end -->
+			
+			<div class="right">
+				<div class="toux left-t"><img src="http://os.blog.163.com/common/ava.s?host=yhtqduan&b=2&r=1460559405561"/></div>
+				<div class="uinfo">
+						<a class="name" href="{:U('Index/about')}">{$info.name}</a>
+						<span class="qianm">{$info.qianming}</span>
+						<table>
+							<tr> <td class="open">学历:</td> <td>{$info.xuel}</td> </tr>
+							<tr> <td class="open">职业:</td> <td>{$info.zhiy}</td> </tr>
+							<tr> <td class="open">技能专长:</td> <td>{$info.jinzc}</td> </tr>
+							<tr> <td class="open">QQ:</td> <td>{$info.qq}</td> </tr>
+							<tr> <td class="open">E-Mail:</td> <td>{$info.email}</td> </tr>
+						</table>
+				</div>
+			</div>
+			<!-- left end -->
+		</div>
+		<!-- content end -->
+		
+		<div class="footer center-t">
+			<span>@2015</span>
+		</div>
+	</div>
+</body>
+
+</body>
+</html>

@@ -1,0 +1,323 @@
+[ 2016-05-23T00:35:51+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 36 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 36 [ RunTime:0.0936s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 36 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-05-23T00:35:55+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 35 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 35 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-23T00:35:58+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 34 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 34 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-23T00:36:00+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 33 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 33 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0156s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 33 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-23T00:36:02+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 24 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 24 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/data/1605/1463228116.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-23T00:36:06+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 23 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 23 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/data/1605/1463228056.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-23T00:36:10+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 22 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 22 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/data/1605/1463227980.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-23T00:36:13+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 21 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 21 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/data/1605/1463227957.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-23T00:36:16+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 20 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 20 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/data/1605/1463227932.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-23T00:36:18+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 19 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 19 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/data/1605/1463227900.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-23T00:36:22+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 18 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 18 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/data/1605/1463227868.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-23T00:36:25+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 17 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 17 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/data/1605/1463227839.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-23T00:36:28+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 16 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 16 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/data/1605/1463227800.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-23T00:36:31+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 14 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 14 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/data/1605/1463227735.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-23T00:36:33+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 15 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `wid` = 15 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/data/1605/1463227769.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-23T00:37:37+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('如何使用tp快速建站','如果你有php基础，很快就能建站，最近我就用tp建立了一个小小的站。花了两天的时间。第一步：先看一遍tp的手册， 主要看配置，模块，数据库操作，tp的标签，tp的操作寒素。还要熟悉tp访问的方式。第二','D:\\www\\thinkphp/Public/html/1605/14639350573.html','1463935057','0','1') [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-23T00:38:04+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('sql注入初步了解  ','这里，我们并不是要去攻击别人的网站，只是了解一些sql的注入，可以做好开发。第一： 输入框很多的时候，我们并没有进行过滤，   然后， 一个单引号  （ \\\' ），就暴露了（手工检测，可以有专用的工具来','D:\\www\\thinkphp/Public/html/1605/14639350845.html','1463935084','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-23T00:38:34+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('dedecms在linux上网页白屏','网页白屏，说明程序报错。另外  dedecms不能在php7上使用，需要调整安装页白屏：    打开php的报错显示，找到第一条，轻松解决安装好后，首页白屏：   打开dedecms的调试模式，然后你','D:\\www\\thinkphp/Public/html/1605/14639351149.html','1463935114','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-23T00:38:52+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('开启php错误提示 ','1,   在php.ini中找到把下面的改好。error_reporting = E_ALLdisplay_errors = on2 , 在php_fpn.conf中添加或者修改php_flag[di','D:\\www\\thinkphp/Public/html/1605/14639351322.html','1463935132','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-23T00:39:11+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0020s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('php初识面向对象之抽象类 ','abstract 修饰的类是抽象类，abstract 修饰的方法是抽象方法abstract A {      abstract  function get();     // 抽象方法不能有方法体，不','D:\\www\\thinkphp/Public/html/1605/14639351514.html','1463935151','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-23T00:39:30+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0040s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('php初始面向对象之了解属性/方法  ','属性： 用来描述对象的数据元素（也称为 数据 / 状态）方法 ：对对象的属性进行的操作  （也称  行为/ 操作）private ： 属性 / 方法          # 只能目前的这个对象里可用。p','D:\\www\\thinkphp/Public/html/1605/14639351708.html','1463935170','0','1') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-23T00:39:49+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0040s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('php初始面向对象之静态方法以及调用  ','class A{  private static $err =&quot;error&quot;;  public static getStr(){     echo &quot;这是静态方法&quot;；   }}静态方法调用：self ','D:\\www\\thinkphp/Public/html/1605/14639351895.html','1463935189','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-23T00:40:26+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('php初始面向对向之$this  ','$this -&gt;  xxphp中，调用当前对象的  属性和方法；class A{    private $b = &quot;12&quot;;    function msg(){       $this -&gt; b =','D:\\www\\thinkphp/Public/html/1605/14639352262.html','1463935226','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-23T00:40:44+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('php初识面向对象之使用父类的方法  ','php使用父类的方法：parent ::     xxxx()          注意，parent后面有两个冒号parent::  而不是  parent -&gt;  可以看出，php不想在内存中，让父','D:\\www\\thinkphp/Public/html/1605/14639352446.html','1463935244','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-23T00:41:05+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('html标签间为何出现缝隙？ ','先来认识一下内联元素和块级元素inline          内联元素，不能设置  width  height  margin-top/-bottom  padding-top/-bottombloc','D:\\www\\thinkphp/Public/html/1605/14639352658.html','1463935265','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-23T00:41:27+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0040s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('php 初识面向对象之继承 ','php中，类的继承，只能继承一个父类，父类中的 private 类型不能被继承.,protected  类型能被子类继承，但是，不能被外部（类的外部）调用。子类可以继承父类的构造方法。','D:\\www\\thinkphp/Public/html/1605/14639352878.html','1463935287','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-23T00:41:46+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('简单实现响应是布局','简单实：@media screen and (max-width:1000px){	.test{		width:1000px;		height:500px;		text-align:center;		','D:\\www\\thinkphp/Public/html/1605/14639353066.html','1463935306','0','1') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-23T00:42:07+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0040s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('jquery-find获取设置子元素的信息  ','内容不多说，因为最近有用到，就写了下来。可以用来修改 web编辑器 ，保存下来的内容的样式，web编辑器保存的也就html文本$(&quot;div&quot;).find(&quot;img&quot;).attr(&quot;src&quot;);    ','D:\\www\\thinkphp/Public/html/1605/14639353276.html','1463935327','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-23T00:42:30+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('mysql-insert插入数据  ','补上前面的。向数据库插入一行数据 ： insert into tableName values (value1,value2,value3,....)如果你要指定写入某一列，还可以这样insert i','D:\\www\\thinkphp/Public/html/1605/14639353508.html','1463935350','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-23T00:42:53+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('初入php开发api  ','最近看到很多都是php开发api接口的，兴趣了来了，就了解了一下。由于之前玩过一点微信公众平台的开发，所以 理解得比较快一点。下面我们来看看 是怎么一回事。我就直接拿网上的部分代码来说了。&lt;?php ','D:\\www\\thinkphp/Public/html/1605/14639353730.html','1463935373','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

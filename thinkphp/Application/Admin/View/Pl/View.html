@@ -1,0 +1,23 @@
+<html>
+<head>
+	<import type='css' file='css.style'/>
+</head>
+<body>
+	<div class="contrace">		
+		
+		<div class="content">{$content}</div>
+		
+		<!-- 评论区 -->
+		<div class="pl">
+			<div class="pl-out">
+				<ul>
+					<volist name='out' id="vo">
+					<li>{$vo.email}：{$vo.con}</li>
+					</volist>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

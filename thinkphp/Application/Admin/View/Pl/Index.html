@@ -1,0 +1,58 @@
+<html>
+<head>
+	<import type='css' file='css.admin'/>
+	<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+	<div class="contrace">
+		<table>
+			<tr>
+				<th>id</th>
+				<th>邮箱</th>
+				<th>内容</th>
+				<th>时间</th>
+				<th>ip</th>
+				<th>操作</th>
+			</tr>
+			<volist name="plList" id='vo'>
+			<tr>
+			<td>{$vo.id}</td>
+			<td>{$vo.email}</td>
+			<td>{$vo.con|substr=0,20}...</td>
+			<td>{$vo.ptime|date="Y-m-d H:i",###}</td>
+			<td>{$vo.ip}</td>
+			<td>
+				<a href="{:U('Pl/View',array('wid'=>$vo['wid'],'id'=>$vo['id']))}">查看</a>
+				<a href="{:U('Pl/Del')}" id="{$vo.id}" onclick="return del(this)">删除</a>
+			
+			</td>
+			</tr>
+			
+			</volist>
+			<tr><td colspan="6">{$page}</td></tr>
+		</table>
+	</div>
+	<script>
+	function del(obj){
+		var url = $(obj).attr('href');
+		var id = $(obj).attr('id');
+		$.ajax({
+			contentType:"application/x-www-form-urlencoded;charset=utf-8",
+			url:url,
+			type:"post",
+			data:{id:id},
+			success:function(data){
+				switch(data){
+					case '1':confirm("成功删除");setTimeout(function(){window.location.reload();},100); break;
+					default:alert("系统错误1"); break;
+				}
+			},
+			error:function(){
+				alert("系统错误");
+			}
+		});
+		return false;
+	}
+	</script>
+</body>
+</html>

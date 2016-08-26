@@ -1,0 +1,79 @@
+<html>
+<head>
+	<title>{$title}-{$web_title}</title>
+	<import type='css' file='css.style'/>
+	<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+	<div class="contrace">		
+		<div class="header">
+			<div class="web_title"><span>{$web_title}</span></div>
+			<div class="qianming"><span><present name="qianming">{$qianming}</present></span></div>
+			<div class="head-logo"><img src='__PUBLIC__/images/logo-back.jpg'></div>
+			<div class="nav">
+				<ul>
+					<li><a href="{:U('Index/Index')}">首页</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">{$content}</div>
+		
+		<!-- 评论区 -->
+		<div class="pl">
+			<div class="pl-in">
+				<form onsubmit="return false" id="form" action="{:U('View/doPl')}">
+					<table>
+						<tr>
+							<td width="50px"><span>*邮箱:</span></td>
+							<td><input name='email' type=''text' maxlength="20" value='' /></td>
+						</tr>
+						<tr>
+							<td align="top"><span>内容:</span></td>
+							<td><textarea id="con" class="pl-con"></textarea></td>
+						</tr>
+						<tr>
+							<td colspan='2' align="right"><input id="submit" type='submit' value="回复"/></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			<div class="pl-out">
+				<ul>
+					<volist name='out' id="vo">
+					<li>{$vo.email}：{$vo.con}</li>
+					</volist>
+				</ul>
+				<div class="page">{$page}</div>
+			</div>
+		</div>
+		<div class="footer">底部</div>
+	</div>
+	<script>
+		$(document).ready(function(){
+			$("#submit").click(function(){
+				var url = $("form").attr("action");
+				$.ajax({
+					contentType:"application/x-www-form-urlencoded;charset=utf-8",
+					url:url,
+					type:"post",
+					data:{
+						wid:"{$wid}",
+						email:$("input[name=email]").val(),
+						con:$("#con").val()
+					},
+					success:function( data){
+						switch(data){
+							case '1': confirm("回复成功"); setTimeout(function(){$("#con").attr('value',' ');$("input[name=email]").attr('value',' '); window.location.reload();},500); break;
+							default: alert("系统发生错误"); break;
+						}
+					},
+					error:function(){
+						alert("失败");
+					}
+					
+				});
+			});
+		});
+	</script>
+</body>
+</html>

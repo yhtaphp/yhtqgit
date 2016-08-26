@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>默 - 后台</title>
+	<import type='css' file='css.admin'/>
+</head>
+<body>
+	<div class="header">
+		<div class="title">
+			<h3><a href="{:U('Index/Index')}">默 - 后台</a></h3>
+		</div>
+		<!--title end-->
+		<div class="item">
+			<ul>
+				<li><a href="{:U('Login/destroy')}">注销</a></li>
+			</ul>
+		</div>
+		<!--item end-->
+	</div>
+	<!--header end-->
+	
+	<div class="content">
+		<div class="left">
+			<ul class="menu-left">
+			</ul>
+				<volist name='menu' id='menuVal'>
+				<li><a href="{:U($menuVal['url'])}" target="main">{$menuVal.title}</a></li>
+				</volist>
+			</ul>
+		</div>
+		<!--left end-->
+		
+		<div class="right">
+			<iframe class="iframe" name="main" src="{:U('Index/Main')}" />
+		</div>
+		<!--right end-->
+	</div>
+	<!--content end-->
+
+</body>
+</html>

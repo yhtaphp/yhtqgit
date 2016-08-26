@@ -1,0 +1,417 @@
+[ 2016-05-22T15:37:00+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' fffffffffffffffffff',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 34 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-22T15:37:24+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 36 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 为单位的完成v',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 36 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-22T16:06:36+08:00 ] 127.0.0.1 /admin.php/Pl/Index.html
+ERR: 无法加载控制器:Pl
+
+[ 2016-05-22T16:36:56+08:00 ] 127.0.0.1 /admin.php/Pl/View/wid/36/id/6.html
+ERR: 非法操作:View
+
+[ 2016-05-22T16:56:17+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T16:56:22+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T16:56:24+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T16:56:31+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T16:57:17+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 22 行.
+
+[ 2016-05-22T16:57:23+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 22 行.
+
+[ 2016-05-22T16:57:47+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 22 行.
+
+[ 2016-05-22T16:58:16+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T16:58:45+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T16:59:00+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T16:59:29+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T16:59:56+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:00:29+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:01:17+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] addcslashes() expects exactly 2 parameters, 1 given D:\www\thinkphp\ThinkPHP\Common\functions.php 第 370 行.
+
+[ 2016-05-22T17:01:22+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] addcslashes() expects exactly 2 parameters, 1 given D:\www\thinkphp\ThinkPHP\Common\functions.php 第 370 行.
+
+[ 2016-05-22T17:01:43+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] addcslashes() expects exactly 2 parameters, 1 given D:\www\thinkphp\ThinkPHP\Common\functions.php 第 370 行.
+
+[ 2016-05-22T17:02:06+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] addcslashes() expects exactly 2 parameters, 1 given D:\www\thinkphp\ThinkPHP\Common\functions.php 第 370 行.
+
+[ 2016-05-22T17:02:27+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] addcslashes() expects exactly 2 parameters, 1 given D:\www\thinkphp\ThinkPHP\Common\functions.php 第 370 行.
+
+[ 2016-05-22T17:03:47+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] addcslashes() expects exactly 2 parameters, 1 given D:\www\thinkphp\ThinkPHP\Common\functions.php 第 370 行.
+
+[ 2016-05-22T17:05:57+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-22T17:06:22+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: is D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:06:27+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: is D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:07:01+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: is D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-05-22T17:07:20+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: is D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-05-22T17:07:27+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: is D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:07:50+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-05-22T17:08:15+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:08:40+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:08:54+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:09:42+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: id D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 22 行.
+
+[ 2016-05-22T17:10:04+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:10:28+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:11:36+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:11:59+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `Id` = 0 [ RunTime:0.1560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:12:04+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE `Id` = 0 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:12:11+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0156s ]
+SQL: DELETE FROM `pl` WHERE `Id` = 0 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:12:51+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0030s ]
+SQL: DELETE FROM `pl` WHERE `Id` = 0 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-22T17:13:19+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-22T17:15:36+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE ( id = 4 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:16:07+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:17:09+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:17:35+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:17:48+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE ( id = 9 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:18:00+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0624s ]
+SQL: DELETE FROM `pl` WHERE ( id = 11 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:18:20+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE ( id = 3 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:18:26+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE ( id = 1 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-22T17:21:26+08:00 ] 127.0.0.1 /admin.php/Pl/View/wid/36/id/5.html
+ERR: 非法操作:View
+
+[ 2016-05-22T17:31:23+08:00 ] 127.0.0.1 /admin.php/Pl/Del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\thinkphp\Application\Admin\Controller\PlController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `pl` [ RunTime:0.0000s ]
+SQL: DELETE FROM `pl` WHERE ( id = 5 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

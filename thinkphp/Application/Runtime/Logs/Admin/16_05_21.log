@@ -1,0 +1,1086 @@
+[ 2016-05-21T05:42:49+08:00 ] 127.0.0.1 /admin.php/Wen/Wenlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT user.user,mycontent.* FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T05:43:35+08:00 ] 127.0.0.1 /admin.php/Wen/Wenlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT user.user,mycontent.* FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T05:44:20+08:00 ] 127.0.0.1 /admin.php/Wen/Wenlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT user.user,mycontent.* FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-21T05:45:07+08:00 ] 127.0.0.1 /admin.php/Wen/Wenlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT user.user,mycontent.* FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T05:45:20+08:00 ] 127.0.0.1 /admin.php/Wen/Wenlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT user.user,mycontent.* FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T05:46:00+08:00 ] 127.0.0.1 /admin.php/Wen/Wenlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT user.user,mycontent.* FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-21T05:47:04+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel/wid/14.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T05:47:34+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel/wid/24.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 24 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T05:47:42+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel/wid/16.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 16 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T05:48:15+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel/wid/24.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 24 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T05:50:41+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+
+[ 2016-05-21T05:51:16+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html?wid=29
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 29 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T05:54:28+08:00 ] 127.0.0.1 /admin.php/Wen/Wenlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT user.user,mycontent.* FROM `mycontent` INNER JOIN user on mycontent.uid = user.id  LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T06:01:42+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0080s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('测试','this test content','D:\\www\\thinkphp/Public/html/1605/14637817020.html','1463781702','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-21T06:03:10+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 29 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T06:03:22+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 30 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T06:03:26+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 30 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T06:04:15+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 30 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T06:05:20+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 22 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T06:06:00+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 22 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T06:07:03+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 22 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T06:07:41+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 20 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T06:09:08+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 24 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T06:10:21+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+
+[ 2016-05-21T06:10:49+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+
+[ 2016-05-21T06:11:34+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 16 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T06:13:18+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 24 LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2016-05-21T06:16:00+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 30 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 30 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T06:17:35+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 13 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/data/1605/1463227705.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 65 行.
+
+[ 2016-05-21T06:19:44+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 29 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T06:43:23+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('sss','sss','D:\\www\\thinkphp/Public/html/1605/14637842038.html','1463784203','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-05-21T07:03:02+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('sdsdsd','dsdsds','D:\\www\\thinkphp/Public/html/1605/14637853828.html','1463785382','0',NULL)
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('sdsdsd','dsdsds','D:\\www\\thinkphp/Public/html/1605/14637853828.html','1463785382','0',NULL)
+
+[ 2016-05-21T07:03:04+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('sdsdsd','dsdsds','D:\\www\\thinkphp/Public/html/1605/14637853840.html','1463785384','0',NULL)
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('sdsdsd','dsdsds','D:\\www\\thinkphp/Public/html/1605/14637853840.html','1463785384','0',NULL)
+
+[ 2016-05-21T07:03:58+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('dcsdfdsf','dsfsdfsdfsfd','D:\\www\\thinkphp/Public/html/1605/14637854382.html','1463785438','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:07:11+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0040s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('中美战略安全对话会议19日在华盛顿举行','图片来自网络新华社华盛顿5月19日电  中国外交部副部长张业遂和美国常务副国务卿布林肯19日在华盛顿共同主持中美战略安全对话会议。双方就共同关心的战略安全问题坦诚、深入交换了意见。双方同意继续利用中美','D:\\www\\thinkphp/Public/html/1605/14637856317.html','1463785631','0','1') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-21T07:17:59+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('霍建华承认与林心如相恋 男方称希望得到祝福','微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝','D:\\www\\thinkphp/Public/html/1605/14637862792.html','1463786279','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:23:34+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('霍建华承认与林心如相恋 男方称希望得到祝','微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝','D:\\www\\thinkphp/Public/html/1605/14637866143.html','1463786614','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:23:46+08:00 ] 127.0.0.1 /admin.php/Wen/doAddWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: INSERT INTO `mycontent` (`title`,`shart`,`path`,`ctime`,`hot`,`uid`) VALUES ('霍建华承认与林心如相恋 男方称希望得到祝','微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝','D:\\www\\thinkphp/Public/html/1605/14637866263.html','1463786626','0','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:24:30+08:00 ] 127.0.0.1 /admin.php/Wen/doEditWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:doEditWen
+
+[ 2016-05-21T07:25:26+08:00 ] 127.0.0.1 /admin.php/Wen/doEditWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:doEditWen
+
+[ 2016-05-21T07:25:26+08:00 ] 127.0.0.1 /admin.php/Wen/doEditWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:doEditWen
+
+[ 2016-05-21T07:25:29+08:00 ] 127.0.0.1 /admin.php/Wen/doEditWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:doEditWen
+
+[ 2016-05-21T07:27:40+08:00 ] 127.0.0.1 /admin.php/Wen/doEditWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:doEditWen
+
+[ 2016-05-21T07:27:42+08:00 ] 127.0.0.1 /admin.php/Wen/doEditWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:doEditWen
+
+[ 2016-05-21T07:36:53+08:00 ] 127.0.0.1 /admin.php/Wen/doEditWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:doEditWen
+
+[ 2016-05-21T07:37:01+08:00 ] 127.0.0.1 /admin.php/Wen/doEditWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:doEditWen
+
+[ 2016-05-21T07:37:12+08:00 ] 127.0.0.1 /admin.php/Wen/doEditWen.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:doEditWen
+
+[ 2016-05-21T07:37:51+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-05-21T07:38:11+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-05-21T07:39:25+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-05-21T07:40:24+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-05-21T07:40:42+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:40:52+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-21T07:41:26+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:42:08+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:43:32+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE ( wid = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:43:37+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE ( wid = 0 ) LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:44:12+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE ( wid = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:44:23+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE ( wid = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:44:33+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE ( wid = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:46:04+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`='霍建华承认与林心如相恋 男方称希望得到祝fe',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 0 [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:46:41+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`='霍建华承认与林心如相恋 男方称希望得到祝fe',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 0 [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:46:59+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`='霍建华承认与林心如相恋 男方称希望得到祝fe',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 0 [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-05-21T07:47:23+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`='霍建华承认与林心如相恋 男方称希望得到祝fe',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 0 [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:47:51+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`='霍建华承认与林心如相恋 男方称希望得到祝',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 0 [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:47:57+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' ',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 0 [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:48:10+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' ',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 0 [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:48:34+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`='霍建华承认与林心如相恋 男方称希望得到祝',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 0 [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:49:10+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' ',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 0 [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-21T07:49:23+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' ',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 0 [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:50:19+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE ( wid =0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' ',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 0 [ RunTime:0.0000s ]
+NOTIC: [2] file_put_contents(): Filename cannot be empty D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:50:43+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE ( wid=36 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' ',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 0 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:51:48+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 36 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' ',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 36 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:52:24+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`='霍建华承认与林心如相恋 男方称希望得到祝',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 35 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:52:59+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 非呃呃呃呃呃呃呃呃呃呃呃',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 35 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:53:22+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`='霍建华承认与林心如相恋 男方称希望得到祝',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 34 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:53:56+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' ',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 34 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:54:00+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' fffffffffffffffffff',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 34 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:54:08+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 非呃呃呃呃呃呃呃呃呃呃呃',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 35 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:54:34+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 的方法淡淡的淡淡的淡淡',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 35 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-05-21T07:54:45+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 的方法淡淡的淡淡的淡淡',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 35 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:57:20+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 我淡淡的淡淡的淡淡的淡淡的',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 35 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:57:27+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 我淡淡的淡淡的淡淡的淡淡的',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 35 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:57:50+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 我淡淡的淡淡的淡淡的淡淡的',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 35 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:58:12+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 33 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`='中美战略安全对话会议19日在华盛顿举行',`shart`='&lt;div class=&quot;content&quot;&gt;&lt;p class=&quot;f_center&quot;&gt;&lt;img src=&quot;http://img2.cache.netease.com/cnews/2016/5/20/201' WHERE `wid` = 33 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T07:59:05+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 33 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`='中美战略安全对话会议19日在华盛顿举行',`shart`='&lt;div class=&quot;content&quot;&gt;&lt;p class=&quot;f_center&quot;&gt;&lt;img src=&quot;http://img2.cache.netease.com/cnews/2016/5/20/201' WHERE `wid` = 33 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:00:22+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 我淡淡的淡淡的淡淡的淡淡的',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 35 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-21T08:01:28+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 我淡淡的淡淡的淡淡的淡淡的',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 35 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:02:25+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' fffffffffffffffffff',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 34 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:02:29+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' fffffffffffffffffff',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 34 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:02:31+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' fffffffffffffffffff',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 34 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:02:46+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' fffffffffffffffffff非',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 34 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:03:09+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' fffffffffffffffffff',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 34 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:03:21+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 36 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 为单位的完成',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 36 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:03:32+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 我淡淡的淡淡的淡淡的淡淡的',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 35 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:03:49+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 我淡淡的淡淡的淡淡的淡淡的成',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 35 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:04:02+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 我淡淡的淡淡的淡淡的淡淡的成的速度',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 35 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:04:09+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 36 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 为单位的完成',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 36 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:04:26+08:00 ] 127.0.0.1 /admin.php/Wen/doEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 36 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mycontent` SET `title`=' 为单位的完成v',`shart`='微博截图网易娱乐5月20日报道 今日，霍建华所在工作室发表微博称，霍建华希望得到大家的祝福，并艾特了林心如。网易娱乐第一时间联系到霍建华工作室的工作人员，她大方承认两人已经在一起，并称希望得到大家的祝' WHERE `wid` = 36 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:05:04+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 25 [ RunTime:0.0010s ]
+NOTIC: [2] unlink(/Public/html/1605/14637593060.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-21T08:05:08+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 26 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/Public/html/1605/14637593081.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-21T08:05:11+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 27 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 27 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/Public/html/1605/14637593096.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-21T08:05:14+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 28 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(/Public/html/1605/14637594553.html): No such file or directory D:\www\thinkphp\Application\Admin\Controller\WenController.class.php 第 103 行.
+
+[ 2016-05-21T08:05:18+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 31 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 31 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-21T08:05:26+08:00 ] 127.0.0.1 /admin.php/Wen/WenDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mycontent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mycontent` WHERE `wid` = 32 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `mycontent` WHERE `wid` = 32 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
