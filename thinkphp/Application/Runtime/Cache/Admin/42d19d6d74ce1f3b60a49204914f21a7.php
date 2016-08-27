@@ -5,8 +5,8 @@
 <body>
 	<div class="contrace">
 		<div class="add">
-			<a href="<?php echo U('Photo/upload');?>">添加</a>
-		</div>
+			<a href="<?php echo U('Photo/upload');?>">上传照片</a>
+			<a href="<?php echo U('Photo/photoAdd');?>">创建相册</a>
 	</div>
 </body>
 </html>

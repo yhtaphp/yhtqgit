@@ -9,6 +9,12 @@
 		<div class="botton">
 		<form method="post" action="{:U('Photo/doup')}" enctype="multipart/form-data">
 			<input id="btn" type="file" name="Filedata" class="button"/>
+			<select name="photo">
+				<option selected value="0">-请选择相册-</option>
+				<volist name="photo" id="val">
+					<option value="{$val.id}">{$val.group}</option>
+				</volist>
+			</select>
 			<input type="submit" value="上传"/>
 		</form>
 		</div>

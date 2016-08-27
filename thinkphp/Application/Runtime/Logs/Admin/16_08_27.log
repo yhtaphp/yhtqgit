@@ -1,0 +1,6 @@
+[ 2016-08-27T21:24:17+08:00 ] 127.0.0.1 /admin.php/Photo/photoAdd.html
+ERR: 非法操作:photoAdd
+
+[ 2016-08-27T22:31:52+08:00 ] 127.0.0.1 /admin.php/Photo/doup.html
+ERR: 非法数据对象！
+

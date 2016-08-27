@@ -8,4 +8,5 @@ $(document).ready(function(){
 		$(".show").attr("src",window.URL.createObjectURL(document.getElementById("btn").files[0]));
 		alert("文件选择的内容改变了");
 	});
+
 });
