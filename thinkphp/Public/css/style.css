@@ -6,7 +6,7 @@ a{color:#000;text-decoration:none;}
 a:hover{text-decoration:underline;}
 
 table { width:100%;}
-
+p { line-height: 2em; text-indent: 2em; }
 .center-t { text-align: center; }
 .left-t { text-align: left; }
 .right-t { text-align: right; }

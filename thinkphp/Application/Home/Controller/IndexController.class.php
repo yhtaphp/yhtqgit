@@ -23,11 +23,26 @@ class IndexController extends Controller {
 	}
 	
 	public function about(){
+		$webTitle = M("web_info") -> limit(1) -> find();			// 获取网站标题
 		
+		$this -> assign('web_title',$webTitle['title']);
+		$this -> display();
 	}
 	
 	public function photo(){
+		// 相册
+		$webTitle = M("web_info") -> limit(1) -> find();			// 获取网站标题
 		
+		$count = M("photo") -> join("__PHGROUP__ on __PHOTO__.gid = __PHGROUP__.id") -> count();
+		
+		$page = new \Think\Page($count,10);		// 实例化分页类
+		$pageShow = $page -> show();
+		//  获取相册数据库
+		$ph = M("photo") -> join("__PHGROUP__ on __PHOTO__.gid = __PHGROUP__.id") -> limit($page->firstRow.','.$page->listRows) -> select();
+		
+		$this -> assign('web_title',$webTitle['title']);
+		$this -> assign("photo",$ph);
+		$this -> display();
 	}
     public function msg(){
 	}

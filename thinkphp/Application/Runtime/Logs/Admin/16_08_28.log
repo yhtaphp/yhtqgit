@@ -1,0 +1,4 @@
+[ 2016-08-28T19:21:13+08:00 ] 127.0.0.1 /admin.php/Photo/upload.html
+ERR: 1146:Table 'test.photo-greup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `photo-greup`
+

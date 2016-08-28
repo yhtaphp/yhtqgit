@@ -9,7 +9,6 @@
 		<div class="header">
 			<div class="web_title"><span><?php echo ($web_title); ?></span></div>
 			<div class="qianming"><span><?php if(isset($qianming)): echo ($qianming); endif; ?></span></div>
-			<div class="head-logo"><img src='/Public/images/logo-back.jpg'></div>
 			<div class="nav">
 				<ul>
 					<li><a href="<?php echo U('Index/Index');?>">首页</a></li>

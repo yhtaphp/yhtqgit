@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<import type="css" file="css.style"/>
+</head>
+
+<body>
+	<div class="contrace">
+	<div class="header">
+			<div class="web_title"><span>{$web_title}</span></div>
+			<div class="qianming"><span><present name="qianming">{$qianming}</present></span></div>
+			<div class="nav">
+				<ul>
+					<li><a href="{:U('Index/Index')}">首页</a></li>
+					<li><a href="{:U('Index/photo')}">相册</a></li>
+					<li><a href="{:U('Index/about')}">关于我</a></li>
+				</ul>
+			</div>
+		</div>
+		<ul>
+			<volist name="photo" id="vo">
+				<li> <img src="{$vo.path}"/> <span>相册:{$vo.group}</span></li>
+			</volist>
+		</ul>
+	</div>
+</body>	
+</html>

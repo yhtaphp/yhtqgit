@@ -1,0 +1,133 @@
+[ 2016-08-28T18:48:19+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  
+
+[ 2016-08-28T18:48:20+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  
+
+[ 2016-08-28T18:49:47+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  
+
+[ 2016-08-28T18:49:49+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  
+
+[ 2016-08-28T18:49:51+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  
+
+[ 2016-08-28T18:53:04+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  ORDER BY photo.ptime desc 
+
+[ 2016-08-28T18:53:06+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  ORDER BY photo.ptime desc 
+
+[ 2016-08-28T18:53:08+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  ORDER BY photo.ptime desc 
+
+[ 2016-08-28T18:53:09+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  ORDER BY photo.ptime desc 
+
+[ 2016-08-28T18:53:10+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  ORDER BY photo.ptime desc 
+
+[ 2016-08-28T18:53:12+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  ORDER BY photo.ptime desc 
+
+[ 2016-08-28T18:53:13+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  ORDER BY photo.ptime desc 
+
+[ 2016-08-28T18:53:14+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  ORDER BY photo.ptime desc 
+
+[ 2016-08-28T18:55:31+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  ORDER BY photo.ptime desc 
+
+[ 2016-08-28T18:56:44+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  ORDER BY photo.ptime desc 
+
+[ 2016-08-28T18:57:46+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  
+
+[ 2016-08-28T18:57:47+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  
+
+[ 2016-08-28T18:57:49+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  
+
+[ 2016-08-28T18:57:51+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  
+
+[ 2016-08-28T18:58:02+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  WHERE `Id` = '*' 
+
+[ 2016-08-28T18:58:03+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  WHERE `Id` = '*' 
+
+[ 2016-08-28T18:58:06+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  WHERE `Id` = '*' 
+
+[ 2016-08-28T19:02:04+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  
+
+[ 2016-08-28T19:02:27+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: Think\Model:finld方法不存在！
+
+[ 2016-08-28T19:02:30+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: Think\Model:finld方法不存在！
+
+[ 2016-08-28T19:02:31+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: Think\Model:finld方法不存在！
+
+[ 2016-08-28T19:05:57+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  LIMIT 1  
+
+[ 2016-08-28T19:05:59+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  LIMIT 1  
+
+[ 2016-08-28T19:07:47+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  LIMIT 1  
+
+[ 2016-08-28T19:07:48+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  LIMIT 1  
+
+[ 2016-08-28T19:10:53+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1146:Table 'test.photo_greup' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo` INNER JOIN photo_greup on photo.gid = photo_greup.id  LIMIT 1  
+
+[ 2016-08-28T19:14:10+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-greup on photo.gid = photo-greup.id  LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo` INNER JOIN photo-greup on photo.gid = photo-greup.id  LIMIT 1  
+
+[ 2016-08-28T19:14:12+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-greup on photo.gid = photo-greup.id  LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo` INNER JOIN photo-greup on photo.gid = photo-greup.id  LIMIT 1  
+
+[ 2016-08-28T19:14:33+08:00 ] 127.0.0.1 /index.php/home/index/photo.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-greup on photo.gid = photo.id  LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo` INNER JOIN photo-greup on photo.gid = photo.id  LIMIT 1  
+

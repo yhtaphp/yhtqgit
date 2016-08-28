@@ -5,6 +5,7 @@ class ViewController extends Controller{
 	
 	public function Index(){
 		
+		// 文章内容显示
 		$wid = I('get.wid','addslashes',0);
 		$webTitle = M("web_info") -> find();
 		$userInfo = M('user-info')	->	find();
@@ -14,12 +15,13 @@ class ViewController extends Controller{
 		$num = isset($wenCon['hot'])?$wenCon['hot'] + 1:$wenCon['hot'];
 		M("mycontent") -> where(array('wid' => $wid)) ->  save(array('hot' => $num));
 		
+		// 获取评论的数量
 		$plDb = M("pl");
 		$count = $plDb -> join("__MYCONTENT__ on __PL__.wid = __MYCONTENT__.wid") -> where(array('pl.wid'=>$wid))-> count();
 	
-		$page = new \Think\Page($count,5);			// 分页
+		$page = new \Think\Page($count,5);			// 实例化分页类
 		$pageShow = $page -> show();
-		
+		// 分页评论
 		$getPl = $plDb -> join("__MYCONTENT__ on __PL__.wid = __MYCONTENT__.wid") -> where(array('pl.wid'=>$wid)) -> limit ($page -> firstRow.','.$page -> listRows) -> select();
 		
 		$this -> assign('out',$getPl);
@@ -31,6 +33,7 @@ class ViewController extends Controller{
 		$this -> display();
 	}
 	
+	// 提交评论
 	public function doPl(){
 		if (!IS_POST){
 			echo 'no post';
