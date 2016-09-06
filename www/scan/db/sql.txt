@@ -1,0 +1,20 @@
+create table option (
+	id integer primary key autoincrement not null,
+	name varchar(20) not null,
+	otime int(11) not null
+)
+ create table title (
+	id integer primary key autoincrement not null,
+	oid int(11),
+	title varchar(20) not null,
+	ttime int(11) not null
+) 
+create table content (
+	id integer primary key autoincrement,
+	tid int(11) not null,
+	content text not null,
+	ctime int(11) not null
+)
+create index 'tid' on content('tid')
+create index 'oid' on title('oid')
+insert into option values ('1','duanzhouyu','2433242')
