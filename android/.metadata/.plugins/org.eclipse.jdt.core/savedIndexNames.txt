@@ -1,0 +1,3 @@
+INDEX VERSION 1.129+E:\git\duan\android\.metadata\.plugins\org.eclipse.jdt.core
+3995413181.index
+2722664103.index
