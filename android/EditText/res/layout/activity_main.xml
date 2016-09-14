@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    <EditText 
+        android:id="@+id/edit1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="只能输入电话号码"
+        android:textColorHint="#f00"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:inputType="phone"
+        android:layout_below="@id/text"
+        />
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入密码"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:layout_below="@id/edit1"/>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+	
+    <Button 
+        android:id="@+id/btn_one"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="按钮可用"/>
+    <Button 
+        android:id="@+id/btn_two"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_one"
+        android:text="按钮待测"
+        />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+package com.example.radiobutton;
+
+import android.content.Context;
+import android.widget.Button;
+
+public class MyCheck{
+	
+	Context context;
+	Button button;
+	
+	public MyCheck(Context context, Button button){
+		
+	}
+}

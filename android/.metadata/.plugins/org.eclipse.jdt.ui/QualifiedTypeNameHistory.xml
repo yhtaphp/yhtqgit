@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="android.content.ContentProvider"/>
 <fullyQualifiedTypeName name="java.security.PublicKey"/>
-<fullyQualifiedTypeName name="android.view.View"/>
 <fullyQualifiedTypeName name="android.content.Context"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="android.graphics.Canvas"/>
@@ -15,4 +14,8 @@
 <fullyQualifiedTypeName name="android.widget.FrameLayout"/>
 <fullyQualifiedTypeName name="com.example.framelayout.MeziView"/>
 <fullyQualifiedTypeName name="android.view.View.OnTouchListener"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="com.example.button.R.id"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 </qualifiedTypeNameHistroy>

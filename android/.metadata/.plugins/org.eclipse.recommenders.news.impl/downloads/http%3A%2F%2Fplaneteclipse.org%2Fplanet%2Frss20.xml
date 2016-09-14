@@ -8,6 +8,28 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>vert.x project: Vert.x 3.3.3 is released !</title>
+	<guid isPermaLink="true">http://vertx.io/blog/vert-x-3-3-3-is-released</guid>
+	<link>http://vertx.io/blog/vert-x-3-3-3-is-released</link>
+	<description>&lt;article&gt;&lt;p&gt;We have just released Vert.x 3.3.3, a bug fix release of Vert.x 3.3.x.&lt;/p&gt;
+&lt;p&gt;Since the release of Vert.x 3.3.2, quite a few bugs have been reported. We would like to thank you all for reporting these issues.&lt;/p&gt;
+&lt;p&gt;Vert.x 3.3.3 release notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/vert-x3/wiki/wiki/3.3.3---Release-Notes&quot;&gt;https://github.com/vert-x3/wiki/wiki/3.3.3---Release-Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The event bus client using the SockJS bridge are available from NPM, Bower and as a WebJar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/vertx3-eventbus-client&quot;&gt;https://www.npmjs.com/package/vertx3-eventbus-client&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/vert-x3/vertx-bus-bower&quot;&gt;https://github.com/vert-x3/vertx-bus-bower&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.webjars.org/&quot;&gt;http://www.webjars.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Docker images are also available on the &lt;a href=&quot;https://hub.docker.com/u/vertx/&quot;&gt;Docker Hub&lt;/a&gt;. The Vert.x distribution is also available from &lt;a href=&quot;http://sdkman.io/index.html&quot;&gt;SDKMan&lt;/a&gt; and &lt;a href=&quot;http://brew.sh/&quot;&gt;HomeBrew&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The artifacts have been deployed to &lt;a href=&quot;http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.vertx%22%20AND%20v%3A%223.3.3%22&quot;&gt;Maven Central&lt;/a&gt; and you can get the distribution on &lt;a href=&quot;https://bintray.com/vertx/downloads/distribution/3.3.3/view&quot;&gt;Bintray&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Happy coding !&lt;/p&gt;
+&lt;/article&gt;</description>
+	<pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>Ekkehard Gentz: Qt World Summit 2016 San Francisco Conference App: Behind The Scenes</title>
 	<guid isPermaLink="false">http://ekkescorner.wordpress.com/?p=4340</guid>
 	<link>https://ekkescorner.wordpress.com/2016/09/09/qt-world-summit-2016-san-francisco-conference-app-behind-the-scenes/</link>
@@ -668,41 +690,6 @@ mvn &lt;span class=&quot;hljs-keyword&quot;&gt;package&lt;/span&gt; &lt;span cla
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/VBsznlqJOcQ/</link>
 	<description>We are rolling out the new Eclipse Contributor Agreement (ECA).&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/VBsznlqJOcQ&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Fri, 26 Aug 2016 06:59:00 +0000</pubDate>
-</item>
-<item>
-	<title>vert.x project: Vert.x fall conferences</title>
-	<guid isPermaLink="true">http://vertx.io/blog/vert-x-fall-conferences</guid>
-	<link>http://vertx.io/blog/vert-x-fall-conferences</link>
-	<description>&lt;article&gt;&lt;p&gt;A lot of Vert.x conferences are planned this fall around the world, here is a quick recap of these events:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;JavaZone&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://2016.javazone.no/program/lets-build-a-scalable-async-vert-x-app-in-60-min&quot;&gt;Let’s build a scalable async Vert.x app in &amp;lt; 60 min&lt;/a&gt; - Paulo Lopes (Wednesday, 18:20 - 19:20)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Geecon Reactive in Sopot&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://2016.reactive.geecon.org/#bio&quot;&gt;Reactive back-pressure with Vert.x&lt;/a&gt; - Julien Viet (9th of September, 11:45 - 12:30)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;JavaOne&lt;ul&gt;
-&lt;li&gt;Reactive Microservices with Vert.x - Burr Sutter (Thursday, Sep 22, 4:00 p.m. - 5:00 p.m.)&lt;/li&gt;
-&lt;li&gt;Reactive Distributed Applications with Vert.x - Clement Escoffier (Wednesday, Sep 21, 8:30 a.m. - 9:30 a.m.)&lt;/li&gt;
-&lt;li&gt;Vert.x: From Zero to (Micro-) Hero (Hands-on Lab) - Clement Escoffier (Thursday, Sep 22, 12:00 p.m. - 2:00 p.m.)&lt;/li&gt;
-&lt;li&gt;Go Reactive with Vert.x in Oracle Application Container Cloud - Edson Yanaga (Monday, Sep 19, 5:30 p.m. - 6:30 p.m.)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Reactive Summit&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://reactivesummit2016.sched.org/event/7emt/reactive-polyglot-microservices-with-openshift-and-vertx&quot;&gt;Reactive Polyglot Microservices with OpenShift and Vert.x&lt;/a&gt; - Clement Escoffier (Tuesday, October 4, 11:20am - 12:10pm)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Devoxx BE&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://cfp.devoxx.be/2016/talk/BED-6160/Better_performance_with_HTTP%2F2&quot;&gt;Better performance with HTTP/2&lt;/a&gt; - Julien Viet&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cfp.devoxx.be/2016/talk/HKC-9910/Reactive_Microservices_with_Vert.x&quot;&gt;Reactive Microservices with Vert.x&lt;/a&gt; - Edison Yanaga and Burr Sutter&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you are going at one of these conferences, don’t miss the opportunity to learn more about Vert.x!&lt;/p&gt;
-&lt;/article&gt;</description>
-	<pubDate>Fri, 26 Aug 2016 00:00:00 +0000</pubDate>
 </item>
 <item>
 	<title>Christian Pontesegger: Oomph 03: Our First Project Setup</title>

@@ -1,0 +1,18 @@
+package com.example.radiobutton;
+
+import android.content.Context;
+import android.widget.Button;
+import android.widget.CheckBox;
+
+public class MyCheck{
+	
+	public Context context;
+	public Button button;
+	
+	public MyCheck(Context context, CheckBox btn){
+		this.context = context;
+		this.button = btn;
+		btn.setOnCh
+	}
+	
+}
