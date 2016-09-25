@@ -8,6 +8,698 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Leo Ufimtsev: New Eclipse feature: See return value during debugging</title>
+	<guid isPermaLink="false">http://coffeeorientedprogramming.com/?p=470</guid>
+	<link>https://coffeeorientedprogramming.com/2016/09/23/eclipse-see-return-value-during-debugging/</link>
+	<description>&lt;p&gt;&lt;img alt=&quot;Selection_121.png&quot; class=&quot;  wp-image-499 aligncenter&quot; height=&quot;73&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_121.png?w=206&amp;amp;h=73&quot; width=&quot;206&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;With a recent patch, Eclipse can now show you the return value of a method during a debug session.&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;more-470&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;For years, when I was debugging and I needed to see the return value of a method, I would change code like:&lt;/p&gt;
+&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;return function();
+
+&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;To:&lt;/p&gt;
+&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;String retVal = function();
+return retVal;
+
+&lt;/pre&gt;
+&lt;p&gt;And then step through the code and inspect the value of “retVal”.&lt;/p&gt;
+&lt;p&gt;Recently [September 2016] &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=40912&quot;&gt;a patch was merged&lt;/a&gt; to support this feature. Now when you return from a method, in the upper method, in the variable view it shows the return value of the previously finished call:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Selection_120.png&quot; class=&quot;alignnone  wp-image-487&quot; height=&quot;455&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_120.png?w=710&amp;amp;h=455&quot; width=&quot;710&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;As a side note, the reason this was not implemented sooner is that the Java virtual machine debugger &lt;a href=&quot;https://docs.oracle.com/javase/8/docs/jdk/api/jpda/jdi/com/sun/jdi/event/MethodExitEvent.html#returnValue&quot;&gt;did not provide this information until Java 1.6.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If your version of Eclipse doesn’t yet have that feature, try &lt;a href=&quot;http://download.eclipse.org/eclipse/downloads/index.html&quot;&gt;downloading a recent integration or nightly build&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Happy debugging.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/coffeeorientedprogramming.wordpress.com/470/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/coffeeorientedprogramming.wordpress.com/470/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=coffeeorientedprogramming.com&amp;amp;blog=74903670&amp;amp;post=470&amp;amp;subd=coffeeorientedprogramming&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 23 Sep 2016 19:16:30 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: JBoss Tools and Red Hat Developer Studio Maintenance Release for Eclipse Neon</title>
+	<guid isPermaLink="true">http://tools.jboss.org/blog/10.1.0.ga-for-neon.html</guid>
+	<link>http://tools.jboss.org/blog/10.1.0.ga-for-neon.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://tools.jboss.org/downloads/jbosstools/neon/4.4.1.Final.html&quot;&gt;JBoss Tools 4.4.1&lt;/a&gt; and &lt;a href=&quot;http://tools.jboss.org/downloads/devstudio/neon/10.1.0.GA.html&quot;&gt;Red Hat JBoss Developer Studio 10.1&lt;/a&gt; for Eclipse Neon are here waiting for you. Check it out!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;devstudio10&quot; src=&quot;http://tools.jboss.org/blog/images/devstudio10.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;installation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our &lt;a href=&quot;https://www.jboss.org/products/devstudio.html&quot;&gt;JBoss Products page&lt;/a&gt; and run it like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;literalblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre&gt;java -jar jboss-devstudio-&amp;lt;installername&amp;gt;.jar&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This release requires at least Eclipse 4.6 (Neon) but we recommend
+      using the latest &lt;a href=&quot;http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/neonr&quot;&gt;Eclipse 4.6 Neon JEE Bundle&lt;/a&gt; since then you get most of the dependencies preinstalled.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under &quot;JBoss Tools&quot; or &quot;Red Hat JBoss Developer Studio&quot;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For JBoss Tools, you can also use our update site directly.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;literalblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre&gt;http://download.jboss.org/jbosstools/neon/stable/updates/&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is new?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Our main focus for this release was improvements for container based development and bug fixing.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;improved-openshift-3-and-docker-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#improved-openshift-3-and-docker-tools&quot;&gt;&lt;/a&gt;Improved OpenShift 3 and Docker Tools&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We continue to work on providing better experience for container based development in JBoss Tools and Developer Studio. Let’s go through a few interesting updates here.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;support-for-container-labels&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#support-for-container-labels&quot;&gt;&lt;/a&gt;Support for Container Labels&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Users can now specify labels when running a container.
+      The labels are saved in the launch configuration and can also be edited before relaunching the container.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Container Labels&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon1_sprint118/container_labels.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;automatically-detect-known-docker-daemon-connections&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#automatically-detect-known-docker-daemon-connections&quot;&gt;&lt;/a&gt;Automatically detect known Docker daemon connections&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When the Docker Explorer view is opened, the list of existing connections (saved from a previous session) is reloaded.
+      In addition to this behaviour, the view will also attempt to find new connections using default settings such
+      the &amp;amp;aposunix:///var/run/docker.sock&amp;amp;apos Unix socket or the &amp;amp;aposDOCKER_HOST&amp;amp;apos, &amp;amp;aposDOCKER_CERT_PATH&amp;amp;apos and &amp;amp;aposDOCKER_TLS_VERIFY&amp;amp;apos environment
+      variables. This means that by default, in a new workspace, if a Docker daemon is reachable using one of those methods, the
+      user does not have to use the &quot;New Connection&quot; wizard to get a connection.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;extension-point-for-docker-daemon-connection-settings&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#extension-point-for-docker-daemon-connection-settings&quot;&gt;&lt;/a&gt;Extension point for Docker daemon connection settings&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;An extension point has been added to the Docker core plugin to allow for custom connection settings provisionning.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;support-for-docker-compose&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#support-for-docker-compose&quot;&gt;&lt;/a&gt;Support for Docker Compose&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Support for Docker Compose has finally landed !&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Users can select a &lt;code&gt;docker-compose.yml&lt;/code&gt; file and start Docker Compose from the
+      context menu, using the &lt;code&gt;Run &amp;gt; Docker Compose&lt;/code&gt; launcher shortcut.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Docker Compose process displays it logs (with support for text coloring based on ANSI escape codes)
+      and provides a &lt;code&gt;stop&lt;/code&gt; button to stop the underlying process.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Docker Compose&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon1_sprint119/docker_compose.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Also, as with the support for building and running containers, a launch configuration is created after the
+      first call to Docker Compose on the selected &lt;code&gt;docker-compose.yml&lt;/code&gt; file.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;docker-image-hierarchy-view-improvements&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#docker-image-hierarchy-view-improvements&quot;&gt;&lt;/a&gt;Docker Image Hierarchy View Improvements&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The new Docker Image Hierarchy view not only shows the relationships between
+      images (which is particularly interesting when an image is built using a Dockerfile),
+      but it also includes containers based on the images in the tree view
+      while providing with all relevant commands (in the context menu) for containers and images.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Docker Image Hierarchy View&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon1_sprint119/docker_image_hierarch_view.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;server-templates-can-now-be-displayed-edited&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#server-templates-can-now-be-displayed-edited&quot;&gt;&lt;/a&gt;Server templates can now be displayed / edited&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Server templates are now displayed in the property view under the &lt;code&gt;Templates&lt;/code&gt; tab:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;property view template&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/openshift/images/property-view-template.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can access/edit the content of the template with the &lt;code&gt;Edit&lt;/code&gt; command.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;events-can-now-be-displayed&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#events-can-now-be-displayed&quot;&gt;&lt;/a&gt;Events can now be displayed&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Events generated as part of the application livecycle are now displayed in the property view under the &lt;code&gt;Events&lt;/code&gt; tab (available at the project level):&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;property view event&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/openshift/images/property-view-event.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can refresh the content of the event with the &lt;code&gt;Refresh&lt;/code&gt; command or open the event in the OpenShift web console with the &lt;code&gt;Show In → Web Console&lt;/code&gt; command.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;volume-claims-can-now-be-displayed&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#volume-claims-can-now-be-displayed&quot;&gt;&lt;/a&gt;Volume claims can now be displayed&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Volume claims are now displayed in the property view under the &lt;code&gt;Storage&lt;/code&gt; tab (available at the project level):&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;property view storage1&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/openshift/images/property-view-storage1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can create a new volume claim using a resource file like the following:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;{
+          &quot;apiVersion&quot;: &quot;v1&quot;,
+          &quot;kind&quot;: &quot;PersistentVolumeClaim&quot;,
+          &quot;metadata&quot;: {
+              &quot;name&quot;: &quot;claim1&quot;
+          },
+          &quot;spec&quot;: {
+              &quot;accessModes&quot;: [ &quot;ReadWriteOnce&quot; ],
+              &quot;resources&quot;: {
+                  &quot;requests&quot;: {
+                      &quot;storage&quot;: &quot;1Gi&quot;
+                  }
+              }
+          }
+      }&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;If you deploy such a resource file with the &lt;code&gt;New → Resource&lt;/code&gt; command at the project level, the &lt;code&gt;Storage&lt;/code&gt; tab will be updated:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;property view storage2&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/openshift/images/property-view-storage2.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can access/edit the content of the volume claim with the &lt;code&gt;Edit&lt;/code&gt; command or open the volume claim in the OpenShift web console with the &lt;code&gt;Show In → Web Console&lt;/code&gt; command.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;server-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#server-tools&quot;&gt;&lt;/a&gt;Server Tools&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;quickfixes-now-available-in-runtime-detection&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#quickfixes-now-available-in-runtime-detection&quot;&gt;&lt;/a&gt;QuickFixes now available in runtime detection&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Runtime detection has been a feature of JBossTools for a long while, however, it would sometimes create runtime and server adapters with configuration errors without alerting the user. Now, the user will have an opportunity to execute quickfixes before completing the creation of their runtimes and servers.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;JBIDE 15189 rt detect 1&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/server/images/JBIDE-15189_rt_detect_1.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;To see this in action, we can first open up the runtime-detection preference page. We can see that our runtime-detection will automatically search three paths for valid runtimes of any type.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;JBIDE 15189 rt detect 2&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/server/images/JBIDE-15189_rt_detect_2.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once we click search, the runtime-detection’s search dialog appears, with results it has found. In this case, it has located an EAP 6.4 and an EAP 7.0 installation. However, we can see that both have errors. If we click on the error column for the discovered EAP 7.0, the error is expanded, and we see that we’re missing a valid / compatible JRE. To fix the issue, we should click on this item.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;JBIDE 15189 rt detect 3&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/server/images/JBIDE-15189_rt_detect_3.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When we click on the problem for EAP 7, the new JRE dialog appears, allowing us to add a compatible JRE. The dialog helpfully informs us of what the restrictions are for this specific runtime. In this case, we’re asked to define a JRE with a minimum version of Java-8.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;JBIDE 15189 rt detect 4&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/server/images/JBIDE-15189_rt_detect_4.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;If we continue along with the process by locating and adding a Java 8 JRE, as shown above, and finish the dialog, we’ll see that all the errors will disappear for both runtimes. In this example, the EAP 6.4 required a JRE of Java 7 or higher. The addition of the Java 8 JRE fixed this issue as well.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;JBIDE 15189 rt detect 5&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/server/images/JBIDE-15189_rt_detect_5.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Hopefully, this will help users preemptively discover and fix errors before being hit with surprising errors when trying to use the created server adapters.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;support-for-wildfly-10-1&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#support-for-wildfly-10-1&quot;&gt;&lt;/a&gt;Support for WildFly 10.1&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The WildFly 10.0 Server adapter has been renamed to WildFly 10.x. It has been tested and verified to work for WildFly 10.1 installations.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;hibernate-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#hibernate-tools&quot;&gt;&lt;/a&gt;Hibernate Tools&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;hibernate-runtime-provider-updates&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#hibernate-runtime-provider-updates&quot;&gt;&lt;/a&gt;Hibernate Runtime Provider Updates&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A number of additions and updates have been performed on the available Hibernate runtime  providers.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;new-hibernate-5-2-runtime-provider&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#new-hibernate-5-2-runtime-provider&quot;&gt;&lt;/a&gt;New Hibernate 5.2 Runtime Provider&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;With final releases available in the Hibernate 5.2 stream, the time was right to make available a corresponding Hibernate 5.2 runtime provider. This runtime provider incorporates Hibernate Core version 5.2.2.Final and Hibernate Tools version 5.2.0.Beta1.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot; style=&quot;text-align: center;&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;hibernate 5 2&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/hibernate/images/4.4.1.Final/hibernate_5_2.png&quot; width=&quot;381&quot; /&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;title&quot;&gt;Figure 1. Hibernate 5.2 is available&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;other-runtime-provider-updates&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#other-runtime-provider-updates&quot;&gt;&lt;/a&gt;Other Runtime Provider Updates&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Hibernate 4.3 runtime provider now incorporates Hibernate Core version 4.3.11.Final and Hibernate Tools version 4.3.5.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Hibernate 5.0 runtime provider now incorporates Hibernate Core version 5.0.10.Final and Hibernate Tools version 5.0.2.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Hibernate 5.1 runtime provider now incorporates Hibernate Core version 5.1.1.Final and Hibernate Tools version 5.1.0.CR1.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;forge-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#forge-tools&quot;&gt;&lt;/a&gt;Forge Tools&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;added-install-addon-from-the-catalog-command&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#added-install-addon-from-the-catalog-command&quot;&gt;&lt;/a&gt;Added Install addon from the catalog command&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;From Forge 3.3.0.Final onwards it is now possible to query and install addons listed in the &lt;a href=&quot;http://forge.jboss.org/addons&quot;&gt;Forge addons page&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;addon install from catalog&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/forge/images/4.4.1.AM3/addon-install-from-catalog.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;forge-runtime-updated-to-3-3-1-final&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#forge-runtime-updated-to-3-3-1-final&quot;&gt;&lt;/a&gt;Forge Runtime updated to 3.3.1.Final&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The included Forge runtime is now 3.3.1.Final. Read the official announcement &lt;a href=&quot;http://forge.jboss.org/news/jboss-forge-3.3.1.final-is-here&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;startup&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/forge/images/4.4.1.Final/startup.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;freemarker&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#freemarker&quot;&gt;&lt;/a&gt;Freemarker&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;freemarker-2-3-25&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#freemarker-2-3-25&quot;&gt;&lt;/a&gt;Freemarker 2.3.25&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Freemarker library included in the Freemarker IDE was updated to latest available version 2.3.25.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;flth-fltx-file-extensions-added&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#flth-fltx-file-extensions-added&quot;&gt;&lt;/a&gt;flth / fltx file extensions added&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The new flth and fltx extensions have been added and associated with Freemarker IDE. &lt;code&gt;flth&lt;/code&gt; stands for HTML content whereas &lt;code&gt;fltx&lt;/code&gt; stands for XML content.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;overhaul-of-the-plugin-template-parser&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#overhaul-of-the-plugin-template-parser&quot;&gt;&lt;/a&gt;Overhaul of the plugin template parser&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The parser that FreeMarker IDE uses to extract IDE-centric information
+      (needed for syntax highlighting, related tag highlighting,
+      auto-completion, outline view, etc.) was overhauled. Several bugs were
+      fixed, and support for the newer template language features were
+      added. Also, the syntax highlighting is now more detailed inside
+      expressions.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;related-tag-background-highlighting-fixed&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#related-tag-background-highlighting-fixed&quot;&gt;&lt;/a&gt;Related tag background highlighting fixed&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Fixed the issue when the (by default) yellow highlighting of the
+      related FTL tags shift away from under the tag as you type.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;showing-whitespace-block-selection-mode&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#showing-whitespace-block-selection-mode&quot;&gt;&lt;/a&gt;Showing whitespace, block selection mode&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The standard &quot;Show whitespace characters&quot; and &quot;Toggle block selection
+      mode&quot; icons are now available when editing a template.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;improved-automatic-finishing-of-freemarker-constructs&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#improved-automatic-finishing-of-freemarker-constructs&quot;&gt;&lt;/a&gt;Improved automatic finishing of FreeMarker constructs&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When you type &lt;code&gt;&amp;lt;#&lt;/code&gt;, &lt;code&gt;&amp;lt;@&lt;/code&gt;, &lt;code&gt;${&lt;/code&gt;, &lt;code&gt;#{&lt;/code&gt; and &lt;code&gt;&amp;lt;#--&lt;/code&gt; the freemarker editor now automatically closes them.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;error-positions-links-on-the-console&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#error-positions-links-on-the-console&quot;&gt;&lt;/a&gt;Error positions links on the console&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When a FreeMarker exception is printed to the console, the error
+      position in it is a link that navigates to the error. This has worked
+      long ago, but was broken for quite a while.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;fixed-auto-indentation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fixed-auto-indentation&quot;&gt;&lt;/a&gt;Fixed auto-indentation&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When hitting enter, sometimes the new line haven’t inherited the
+      indentation of the last line.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;updated-the-database-used-for-auto-completion&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#updated-the-database-used-for-auto-completion&quot;&gt;&lt;/a&gt;Updated the &quot;database&quot; used for auto completion&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Auto completion now knows all directives and &quot;built-ins&quot; up to
+      FreeMarker 2.3.25.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-next&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-next&quot;&gt;&lt;/a&gt;What is next?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Having JBoss Tools 4.4.1 and Developer Studio 10.1 out we are already working on the next maintenance release for Eclipse Neon.1.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 21 Sep 2016 16:04:52 +0000</pubDate>
+</item>
+<item>
+	<title>Christian Pontesegger: Native browser for GTK on linux</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-3460102793186140898.post-7382841941705793523</guid>
+	<link>http://codeandme.blogspot.com/2016/09/native-browser-for-gtk-on-linux.html</link>
+	<description>Having support for the internal browser is often not working out of the box on linux. You can check the status by opening your Preferences/General/Web Browser settings. If the radio button Use internal  web browser is enabled (not necessarily activated) internal browser support is working, otherwise not.&lt;br /&gt;&lt;br /&gt;Most annoyingly without internal browser support help hovers in your text editors use a fallback mode not rendering links or images.&lt;br /&gt;&lt;br /&gt;To solve this issue you may first check the &lt;a href=&quot;https://www.eclipse.org/swt/faq.php&quot; target=&quot;_blank&quot;&gt;SWT FAQ&lt;/a&gt;. For me working on gentoo linux the following command fixed the problem:&lt;br /&gt;&lt;pre class=&quot;brush: java&quot;&gt;emerge net-libs/webkit-gtk:2&lt;/pre&gt;It is important to not only install the latest version of webkit-gtk which will not be recognized by Eclipse. After installation restart eclipse and your browser should work. Verified on Eclipse Neon.</description>
+	<pubDate>Wed, 21 Sep 2016 09:14:56 +0000</pubDate>
+	<author>noreply@blogger.com (Christian Pontesegger)</author>
+</item>
+<item>
+	<title>Geniutec: Creating My First Web App with Angular 2 in Eclipse</title>
+	<guid isPermaLink="false">https://www.genuitec.com/?p=496768</guid>
+	<link>https://www.genuitec.com/first-angular-2-app/</link>
+	<description>&lt;p&gt;Angular 2 is a framework for building desktop and mobile web applications. After hearing rave reviews about Angular 2, I decided to check it out and take my first steps into modern web development. In this article, I’ll show you how to create a simple master-details application using Angular 2, TypeScript, Angular CLI and Eclipse […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://www.genuitec.com/first-angular-2-app/&quot; rel=&quot;nofollow&quot;&gt;Creating My First Web App with Angular 2 in Eclipse&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.genuitec.com&quot; rel=&quot;nofollow&quot;&gt;Genuitec&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Tue, 20 Sep 2016 14:00:01 +0000</pubDate>
+</item>
+<item>
+	<title>Lars Vogel: Eclipse 4.7 M2 is out with a focus on usability</title>
+	<guid isPermaLink="false">http://blog.vogella.com/?p=7480</guid>
+	<link>http://blog.vogella.com/2016/09/19/eclipse-4-7-m2-is-out-with-a-focus-on-usability/</link>
+	<description>&lt;p&gt;&lt;a href=&quot;http://download.eclipse.org/eclipse/downloads/drops4/S-4.7M2-201609150230/&quot;&gt;Eclipse 4.7 M2&lt;/a&gt; is out with a focus on usability. &lt;/p&gt;
+&lt;p&gt;From simplified filter functionality in the Problems, Bookmark and Task view, improved color usage for popups, simplified editor assignments for file extensions, enhancements of quick access, a configurable compare direction in the compare editor, etc. you will find lots of nice goodies which will increase your love with the Eclipse IDE. &lt;/p&gt;
+&lt;p&gt;Also the background jobs API has been improved and we run jobs still fast, even if you do a lot of status updates in your job implementation. &lt;/p&gt;
+&lt;p&gt;Checkout the &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.7/M2/&quot;&gt;Eclipse 4.7 M2 Notes and Noteworthy&lt;/a&gt; for the details.&lt;/p&gt;</description>
+	<pubDate>Mon, 19 Sep 2016 08:23:20 +0000</pubDate>
+</item>
+<item>
+	<title>Leo Ufimtsev: Eclipse basics for Java development</title>
+	<guid isPermaLink="false">http://coffeeorientedprogramming.com/?p=318</guid>
+	<link>https://coffeeorientedprogramming.com/2016/09/19/eclipse-basics-for-java-development/</link>
+	<description>&lt;p&gt;Just a basic into to Eclipse, aimed at people who are new to Java. Covers creating a new project, debugging, common shortcuts/navigation, git.&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;more-318&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Workspace&lt;/h2&gt;
+&lt;p&gt;Workspace contains your settings, ex your keyboard shortcut preferences, list of your open projects. You can have multiple workspaces.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Selection_097.png&quot; class=&quot;alignnone  wp-image-400&quot; height=&quot;242&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_097.png?w=425&amp;amp;h=242&quot; width=&quot;425&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You can switch between Workspaces via File -&amp;gt;Switch Workspaces&lt;/p&gt;
+&lt;h2&gt;Projects&lt;/h2&gt;
+&lt;p&gt;A project is essentially an application, or a library to an application. Projects can be opened or closed. Content of closed projects don’t appear in searches.&lt;/p&gt;
+&lt;h2&gt;Hello world Project&lt;/h2&gt;
+&lt;p&gt;To run some basic java code:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;File -&amp;gt; New -&amp;gt; Java project&lt;/li&gt;
+&lt;li&gt;Give the project some name -&amp;gt;  finish.&lt;br /&gt;
+&lt;img alt=&quot;Selection_085.png&quot; class=&quot;alignnone  wp-image-337&quot; height=&quot;303&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_085.png?w=346&amp;amp;h=303&quot; width=&quot;346&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Right click on src -&amp;gt; New -&amp;gt; Class&lt;br /&gt;
+&lt;img alt=&quot;Selection_086.png&quot; class=&quot;alignnone size-full wp-image-342&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_086.png?w=680&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Give your Class some name, check “Public static void main(String [] args)”&lt;br /&gt;
+&lt;img alt=&quot;Selection_087.png&quot; class=&quot;alignnone  wp-image-347&quot; height=&quot;564&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_087.png?w=449&amp;amp;h=564&quot; width=&quot;449&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Add “Hello World” print line:&lt;br /&gt;
+System.out.println(“Hello world”);&lt;br /&gt;
+&lt;img alt=&quot;Selection_088.png&quot; class=&quot;alignnone size-full wp-image-352&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_088.png?w=680&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Right click on “SomeName.java” -&amp;gt; run as -&amp;gt; Java Application&lt;br /&gt;
+&lt;img alt=&quot;Selection_089.png&quot; class=&quot;alignnone size-full wp-image-356&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_089.png?w=680&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Output printed in Console:&lt;br /&gt;
+&lt;img alt=&quot;Selection_090.png&quot; class=&quot;alignnone size-full wp-image-360&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_090.png?w=680&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Next time you can run the file via run button:&lt;img alt=&quot;Selection_092.png&quot; class=&quot;alignnone size-full wp-image-364&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_0921.png?w=680&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Or via “Ctrl+F11”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Debugging&lt;/h2&gt;
+&lt;p&gt;Set a breakpoint by double clicking on the line numbers in the margin, then click on the bug icon or right click and “Debug as” -&amp;gt; “Java appliaction”&lt;br /&gt;
+&lt;img alt=&quot;Selection_098.png&quot; class=&quot;alignnone  wp-image-415&quot; height=&quot;432&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_098.png?w=755&amp;amp;h=432&quot; width=&quot;755&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;For more info on debugging, head over to Vogella:&lt;br /&gt;
+&lt;a href=&quot;http://www.vogella.com/tutorials/EclipseDebugging/article.html&quot;&gt;http://www.vogella.com/tutorials/EclipseDebugging/article.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Switching perspectives&lt;/h2&gt;
+&lt;p&gt;Eclipse has the notion of Perspectives. One is for Java development, one for debugging, (others could be C++ development, or task planning etc..). It’s basically a customisation of features and layout.&lt;/p&gt;
+&lt;p&gt;When you finish debugging, you can switch back to the java perspective:&lt;br /&gt;
+&lt;img alt=&quot;Selection_099.png&quot; class=&quot;alignnone size-full wp-image-422&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_099.png?w=680&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Common keyboard shortcuts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ctrl+/    – comment code “//”&lt;br /&gt;
+&lt;img alt=&quot;Selection_093.png&quot; class=&quot;alignnone size-full wp-image-369&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_093.png?w=680&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Ctrl+shift+/    – comment code ‘/* … */’&lt;br /&gt;
+&lt;img alt=&quot;Selection_094.png&quot; class=&quot;alignnone size-full wp-image-374&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_094.png?w=680&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Ctrl+F11   – Run last run configuration&lt;/li&gt;
+&lt;li&gt;Ctrl+Shift+L  Keyboard reminder cue sheet. (Type to search)&lt;br /&gt;
+&lt;img alt=&quot;Selection_095.png&quot; class=&quot;alignnone  wp-image-380&quot; height=&quot;336&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_095.png?w=279&amp;amp;h=336&quot; width=&quot;279&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Ctrl+Shift+L, then Ctrl+Shift+L again, open keyboard preferences.&lt;/li&gt;
+&lt;li&gt;Ctrl+O – Java quick method Outline:&lt;br /&gt;
+&lt;img alt=&quot;Selection_096.png&quot; class=&quot;alignnone  wp-image-386&quot; height=&quot;387&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_096.png?w=354&amp;amp;h=387&quot; width=&quot;354&quot; /&gt;&lt;br /&gt;
+Note: Regex and case search works. Ex “*Key” will find “getBackgroundColorKey()”, so will  “gBFCK”.&lt;/li&gt;
+&lt;li&gt;Ctrl+Shift+r – search for resource (navigate between your classes).&lt;/li&gt;
+&lt;li&gt;Ctrl+Shift+f – automatically format the selected code. (Or all code if no block selected).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more on shortcuts, head over to Vogella:&lt;br /&gt;
+&lt;a href=&quot;http://www.vogella.com/tutorials/EclipseShortcuts/article.html&quot;&gt;http://www.vogella.com/tutorials/EclipseShortcuts/article.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Source code navigation&lt;/h2&gt;
+&lt;p&gt;Right click on a method/variable to bring up a context menu, from there select:&lt;/p&gt;
+&lt;h3&gt;Open Declaration (F3)&lt;/h3&gt;
+&lt;p&gt;This is one of the most used functions. It’s a universal “jump to where the method/variable/class/constant is defined”.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;Open Call hierarchy&lt;/h3&gt;
+&lt;p&gt;See where variable or method is called.&lt;/p&gt;
+&lt;p&gt;Tip: For variables, you can narrow down the Field Access so that it only shows where a field is read/written.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Selection_105.png&quot; class=&quot;alignnone size-full wp-image-462&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_1051.png?w=680&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Quick outline (Ctrl+O)&lt;/h3&gt;
+&lt;p&gt;The quick outline is a quick way to find a function in your class. It has regex support and case search. E.g “*size” will find any method with ‘size’ in it and “cSI” will find ‘computeSizeInPixels’.&lt;br /&gt;
+Tip: Press Ctrl+O again and you will be shown methods that get inherited from parent classes.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Selection_102.png&quot; class=&quot;alignnone size-full wp-image-460&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_102.png?w=680&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Navigate to super/implementation (Ctrl+click)&lt;/h3&gt;
+&lt;p&gt;Sometimes you may want to see which sub-classes overrides a method. You can hover over a method and press ctrl+click, then on “Open Implementation”.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Selection_106.png&quot; class=&quot;alignnone size-full wp-image-463&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_106.png?w=680&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You will be presented with a list of sub-implementations.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Selection_108.png&quot; class=&quot;alignnone size-full wp-image-464&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_108.png?w=680&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You can similarly navigate to parent classes.&lt;/p&gt;
+&lt;h2&gt;Code completion&lt;/h2&gt;
+&lt;p&gt;Predict variable names, method names,&lt;/p&gt;
+&lt;p&gt;Start typing something, press: “Ctrl+space”&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Selection_101.png&quot; class=&quot;alignnone size-full wp-image-429&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_101.png?w=680&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It can complete by case also, ex if you type “mOF” and press Ctrl+Space, it will expand to “myOtherFunction()”.&lt;/p&gt;
+&lt;h2&gt;Templates&lt;/h2&gt;
+&lt;p&gt;Typing “System.out.println();” is tedious. Instead you can type “syso” and then press ‘ctrl+space’. Eclipse can fill in the template code.&lt;img alt=&quot;Selection_084.png&quot; class=&quot;alignnone size-full wp-image-326&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_084.png?w=680&quot; /&gt;&lt;br /&gt;
+You can find more on templates in Eclipse Preferences.&lt;/p&gt;
+&lt;h2&gt;Git integration&lt;/h2&gt;
+&lt;p&gt;99% of my git workflow happens inside Eclipse.&lt;/p&gt;
+&lt;p&gt;You will want to open three useful views:&lt;/p&gt;
+&lt;p&gt;Window -&amp;gt; Show view -&amp;gt; others&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Team -&amp;gt; History&lt;/li&gt;
+&lt;li&gt;git -&amp;gt; Git Repositories&lt;/li&gt;
+&lt;li&gt;git -&amp;gt; Git Staging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can manage git repositories in the “Git Repositories” view:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Selection_109.png&quot; class=&quot;alignnone size-full wp-image-465&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_109.png?w=680&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You can add changed files in the “Git Staging View” via drag and drop, and fill in the commit message. You can view your changes by double clicking on the files:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Selection_110.png&quot; class=&quot;alignnone size-full wp-image-466&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_110.png?w=680&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;In the “History” view, you can create new branches, cherry pick commits, checkout older versions. Compare current files to previous versions etc..&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Selection_112.png&quot; class=&quot;alignnone size-full wp-image-467&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_112.png?w=680&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Selection_113.png&quot; class=&quot;alignnone size-full wp-image-468&quot; src=&quot;https://coffeeorientedprogramming.files.wordpress.com/2016/09/selection_113.png?w=680&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;More on Eclipse&lt;/h2&gt;
+&lt;p&gt;If you want to know more about the Eclipse interface, feel free to head over to Vogella’s in-depth Eclipse tutorial:&lt;br /&gt;
+&lt;a href=&quot;http://www.vogella.com/tutorials/Eclipse/article.html&quot;&gt;http://www.vogella.com/tutorials/Eclipse/article.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Also free free to leave comments with questions.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/coffeeorientedprogramming.wordpress.com/318/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/coffeeorientedprogramming.wordpress.com/318/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=coffeeorientedprogramming.com&amp;amp;blog=74903670&amp;amp;post=318&amp;amp;subd=coffeeorientedprogramming&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 19 Sep 2016 03:10:24 +0000</pubDate>
+</item>
+<item>
+	<title>Doug Schaefer: Pushing the Eclipse IDE Forward</title>
+	<guid isPermaLink="false">http://cdtdoug.ca/?p=779</guid>
+	<link>https://cdtdoug.ca/2016/09/17/pushing-the-eclipse-ide-forward/</link>
+	<description>&lt;p&gt;It’s been a crazy week if you follow the &lt;a href=&quot;https://dev.eclipse.org/mhonarc/lists/ide-dev/&quot;&gt;ide-dev mailing list at Eclipse&lt;/a&gt;. We’ve had many posts over the years discussing our competitive relationship with IntelliJ and the depression that sets in when we try to figure out how to make Eclipse make better so people don’t hate on it so much and then how nothing changes.&lt;/p&gt;
+&lt;p&gt;This time, though,  sparked by what seemed to be an &lt;a href=&quot;https://dev.eclipse.org/mhonarc/lists/ide-dev/msg01303.html&quot;&gt;innocent post by Mickael Istria&lt;/a&gt; about yet another claim that IntelliJ has better content assist (which from what I’ve seen, it actually does). This time it sparked a huge conversation with many Eclipse contributors chiming in with their thoughts about where we are with the Eclipse IDE and what needs to be done to make things better. A great summary of the last few days has been captured in a &lt;a href=&quot;https://jaxenter.de/eclipse-weekly-eclipse-vs-intellij-idea-46687&quot;&gt;German-language Jaxenter article.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The difference this time is that it’s actually sparked action. Mickael, Pascal Rapicault, and others have switched some of their focus on the low hanging user experience issues and are providing fixes for them. The community has been activated and I love seeing it.&lt;/p&gt;
+&lt;p&gt;Someone asked why the Architecture Council at Eclipse doesn’t step in and help guide some of this effort and after discussing it at our monthly call, we’ve decided to do just that. Dani Megert and I will revive the UI Guidelines effort and update the current set and extend it to more general user experience guidance. We’ll use the &lt;a href=&quot;https://dev.eclipse.org/mailman/listinfo/ui-best-practices-working-group&quot;&gt;UI Best Practices group mailing list&lt;/a&gt; to hold public discussions to help with that. Everyone is welcome to participate. And I’m sure the ide-dev list will continue to be busy as contributors discuss implementation details.&lt;/p&gt;
+&lt;p&gt;Eclipse became the number one Java IDE with little marketing. Back in the 2000’s developers were hungry for a good Java IDE and since Eclipse was free and easy to set up (yes, unzipping the IDE wasn’t that bad an experience) and worked well, had great static analysis and refactoring, they fell in love with it.&lt;/p&gt;
+&lt;p&gt;Other IDEs have caught up and in certain areas passed Eclipse and, yes, IntelliJ has become more popular. It’s not because of marketing. Developers decide what they like to use by downloading it and trying it out. As long as we keep our web presence in shape that developers can find the IDE, especially the Java one, and then keep working to make it functionally the best IDE we can, we’ll be able to continue to serve the needs of developers for a long time.&lt;/p&gt;
+&lt;p&gt;Our best marketing comes from our users. That’s the same with all technology these days. I’d rather hear from someone who’s tried Docker Swarm than believe what the Docker people are telling me (for example). That’s how we got Eclipse to number one, and where we need to focus to keep the ball rolling. And as a contributor community, we’re working hard to get them something good to talk about.&lt;/p&gt;</description>
+	<pubDate>Sat, 17 Sep 2016 18:40:28 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: Me as text?</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=238</guid>
+	<link>https://papyrusuml.wordpress.com/2016/09/16/me-as-text/</link>
+	<description>&lt;p&gt;Over the last few days, a large group of my minions and admires met in Sweden at EMD2017 to talk about me…in all my incarnation.&lt;/p&gt;
+&lt;p&gt;One of the most polarizing discussion was about whether I should stay graphical or whether I also needed to be textual. For those who do not know, I am a UML-based modeling tool and therefore graphical by nature.&lt;/p&gt;
+&lt;p&gt;However, some of my minions think that I would be more usable if I also allowed them to create/edit models using text (just like this posting, but in a model instead of a blog post.&lt;/p&gt;
+&lt;p&gt;During the meeting, there was a lot of discussion about whether it was a good idea or not, whether it was useful or not, whether I was even able to support this!&lt;/p&gt;
+&lt;p&gt;The main point made by the pro-text minions was that many things are simply easier to do by writing text rather than drawing images, but that both could be supported. Other minions were saying that it was simply impossible.&lt;/p&gt;
+&lt;p&gt;Now, this is all a bit strange to me. After all, when I look at my picture, I am an image, but then I can express myself in text (again, like in this posting).&lt;/p&gt;
+&lt;p&gt;Regardless, any new capability given me makes me happy!&lt;/p&gt;
+&lt;p&gt;And I wonder how I would look as text…&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://papyrusuml.files.wordpress.com/2016/09/papyrus-logo-asciiart.png&quot;&gt;&lt;img alt=&quot;papyrus-logo-asciiart&quot; class=&quot;size-medium wp-image-255 aligncenter&quot; height=&quot;300&quot; src=&quot;https://papyrusuml.files.wordpress.com/2016/09/papyrus-logo-asciiart.png?w=300&amp;amp;h=300&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I think I like myself better as an image, but it’s good to have a choice. In the end, I trust my minions.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://papyrusuml.wordpress.com/category/papyrus/&quot;&gt;Papyrus&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/category/textual/&quot;&gt;Textual&lt;/a&gt; Tagged: &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/modeling/&quot;&gt;modeling&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/textual/&quot;&gt;Textual&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/uml-2/&quot;&gt;uml&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/papyrusuml.wordpress.com/238/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/papyrusuml.wordpress.com/238/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godelicious/papyrusuml.wordpress.com/238/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/delicious/papyrusuml.wordpress.com/238/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gofacebook/papyrusuml.wordpress.com/238/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/facebook/papyrusuml.wordpress.com/238/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gotwitter/papyrusuml.wordpress.com/238/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/twitter/papyrusuml.wordpress.com/238/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gostumble/papyrusuml.wordpress.com/238/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/stumble/papyrusuml.wordpress.com/238/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godigg/papyrusuml.wordpress.com/238/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/digg/papyrusuml.wordpress.com/238/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/goreddit/papyrusuml.wordpress.com/238/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/reddit/papyrusuml.wordpress.com/238/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=papyrusuml.wordpress.com&amp;amp;blog=72365150&amp;amp;post=238&amp;amp;subd=papyrusuml&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 16 Sep 2016 07:05:05 +0000</pubDate>
+</item>
+<item>
+	<title>Jeremie Bresson: Install &quot;Plug-in Spy&quot; in your Eclipse Neon IDE</title>
+	<guid isPermaLink="true">http://jmini.github.io/blog/2016/2016-09-16_eclipse_plugin_spy.html</guid>
+	<link>http://jmini.github.io/blog/2016/2016-09-16_eclipse_plugin_spy.html</link>
+	<description>&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;There is a lot of documentation about the Eclipse &quot;Plug-in Spy&quot; feature (&lt;a href=&quot;http://www.vogella.com/tutorials/EclipseCodeAccess/article.html#plug-in-spy-for-ui-parts&quot;&gt;Plug-in Spy for UI parts&lt;/a&gt; or &lt;a href=&quot;https://scratsh.wordpress.com/2009/06/09/eclipse-3-5-plug-in-spy-and-menus/&quot;&gt;Eclipse 3.5 - Plug-in Spy and menus&lt;/a&gt;). Im my opinion one information is missing: what you need to install to use the Spy feature in your Eclipse Neon IDE. Here is my small how-to.&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;Select &quot;Install new Software…​&quot; in the &quot;Help&quot; Menu. In the dialog, switch to the &quot;The Eclipse Project Updates&quot; update site (or enter its location &lt;code&gt;&lt;a class=&quot;bare&quot; href=&quot;http://download.eclipse.org/eclipse/updates/4.6&quot;&gt;http://download.eclipse.org/eclipse/updates/4.6&lt;/a&gt;&lt;/code&gt;). Filter with &quot;PDE&quot; and select the &quot;Eclipse PDE Plug-in Developer Resources&quot;. Validate your choices with &quot;Next&quot; and &quot;Finish&quot;, Eclipse will install the feature and ask for a Restart.&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;imageblock&quot; id=&quot;img-dialog&quot;&gt; 
+ &lt;div class=&quot;content&quot;&gt; 
+  &lt;img alt=&quot;2016 09 16 install dialog&quot; src=&quot;http://jmini.github.io/blog/2016/2016-09-16_install-dialog.png&quot; /&gt; 
+ &lt;/div&gt; 
+ &lt;div class=&quot;title&quot;&gt;
+  Figure 1. Install new Software in Eclipse
+ &lt;/div&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;If you prefer the Oomph way, you can paste the snippet contained in &lt;a href=&quot;http://jmini.github.io/feed.xml#lst-oomph&quot;&gt;Listing 1&lt;/a&gt; in your &lt;code&gt;installation.setup&lt;/code&gt; file (Open it with the Menu: &lt;span class=&quot;menuseq&quot;&gt;&lt;span class=&quot;menu&quot;&gt;Navigate&lt;/span&gt; ▸ &lt;span class=&quot;submenu&quot;&gt;Open Setup&lt;/span&gt; ▸ &lt;span class=&quot;menuitem&quot;&gt;Installation&lt;/span&gt;&lt;/span&gt;).&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;listingblock&quot; id=&quot;lst-oomph&quot;&gt; 
+ &lt;div class=&quot;content&quot;&gt; 
+  &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;
+&amp;lt;setup.p2:P2Task
+    xmi:version=&quot;2.0&quot;
+    xmlns:xmi=&quot;http://www.omg.org/XMI&quot;
+    xmlns:setup.p2=&quot;http://www.eclipse.org/oomph/setup/p2/1.0&quot;&amp;gt;
+  &amp;lt;requirement
+      name=&quot;org.eclipse.pde.source.feature.group&quot;/&amp;gt;
+  &amp;lt;repository
+      url=&quot;http://download.eclipse.org/eclipse/updates/4.6&quot;/&amp;gt;
+&amp;lt;/setup.p2:P2Task&amp;gt;&lt;/code&gt;&lt;/pre&gt; 
+ &lt;/div&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;Your Oomph Editor should looks like in &lt;a href=&quot;http://jmini.github.io/feed.xml#img-oomph&quot;&gt;Figure 2&lt;/a&gt;. Save the file and select &quot;Perform Setup Task…​&quot; (in the &lt;span class=&quot;menu&quot;&gt;Help&lt;/span&gt; menu). Oomph will update your installation and will ask for a restart.&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;imageblock&quot; id=&quot;img-oomph&quot;&gt; 
+ &lt;div class=&quot;content&quot;&gt; 
+  &lt;img alt=&quot;2016 09 16 installation oomph editor&quot; src=&quot;http://jmini.github.io/blog/2016/2016-09-16_installation-oomph-editor.png&quot; /&gt; 
+ &lt;/div&gt; 
+ &lt;div class=&quot;title&quot;&gt;
+  Figure 2. Oomph setup Editor: installation.setup File
+ &lt;/div&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;In both cases, after the restart you can press &lt;span class=&quot;keyseq&quot;&gt;&lt;kbd&gt;alt&lt;/kbd&gt;+&lt;kbd&gt;shift&lt;/kbd&gt;+&lt;kbd&gt;f1&lt;/kbd&gt;&lt;/span&gt; and use the Plug-in Spy as in &lt;a href=&quot;http://jmini.github.io/feed.xml#img-spy&quot;&gt;Figure 3&lt;/a&gt;.&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;imageblock&quot; id=&quot;img-spy&quot;&gt; 
+ &lt;div class=&quot;content&quot;&gt; 
+  &lt;img alt=&quot;2016 09 16 plugin spy&quot; src=&quot;http://jmini.github.io/blog/2016/2016-09-16_plugin-spy.png&quot; /&gt; 
+ &lt;/div&gt; 
+ &lt;div class=&quot;title&quot;&gt;
+  Figure 3. Plug-in Spy in Eclipse Neon
+ &lt;/div&gt; 
+&lt;/div&gt;</description>
+	<pubDate>Thu, 15 Sep 2016 22:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Christian Pontesegger: Oomph 04: P2 install tasks</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-3460102793186140898.post-3346836132666848238</guid>
+	<link>http://codeandme.blogspot.com/2016/09/oomph-04-p2-install-tasks.html</link>
+	<description>Form this tutorial onwards we are going to extend our project setup step by step. Today we are looking how to install additional plugins and features to our setup.&lt;br /&gt;&lt;br /&gt;Source code for this tutorial is available on github as a &lt;a href=&quot;https://github.com/Pontesegger/codeandme/blob/master/Code%20&amp;amp;%20Me%20Blog/oomph_04_p2_install_tasks.zip?raw=true&quot;&gt;single zip archive&lt;/a&gt;, as a &lt;a href=&quot;https://github.com/Pontesegger/codeandme/blob/master/Code%20&amp;amp;%20Me%20Blog/oomph_04_p2_install_tasks.psf?raw=true&quot;&gt;Team Project Set&lt;/a&gt; or you can &lt;a href=&quot;https://github.com/Pontesegger/codeandme/tree/master/oomph/04_p2_install_tasks&quot; target=&quot;_blank&quot;&gt;browse the files&lt;/a&gt; online.   &lt;br /&gt;&lt;br /&gt;For a list of all Oomph related tutorials see my &lt;a href=&quot;http://codeandme.blogspot.co.at/p/oomph-articles.html&quot; target=&quot;_blank&quot;&gt;Oomph Tutorials Overview&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;u&gt;&lt;b&gt;Step 1: Add the Repository&lt;/b&gt;&lt;/u&gt;&lt;br /&gt;&lt;br /&gt;Open your Oomph setup file and create a new task of type &lt;i&gt;P2 Director&lt;/i&gt;. To install components we need to provide a p2 site location and components from that location to install. So create a new &lt;i&gt;Repository&lt;/i&gt; child to our task. When selected the &lt;i&gt;Properties&lt;/i&gt; view will ask for a &lt;i&gt;URL&lt;/i&gt;. Point to the p2 location you want to install stuff from. Leave &lt;i&gt;Type&lt;/i&gt; to &lt;i&gt;Combined&lt;/i&gt;. If you do not know about repository types you definitely do not need to change this setting.&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-B-BCCTTCdTA/V9qsHNOMTSI/AAAAAAAAAr8/kMKmu0Qzzq0kEli_-vQJzs0EFFZEM9_KwCLcB/s1600/oomph_01.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;261&quot; src=&quot;https://4.bp.blogspot.com/-B-BCCTTCdTA/V9qsHNOMTSI/AAAAAAAAAr8/kMKmu0Qzzq0kEli_-vQJzs0EFFZEM9_KwCLcB/s400/oomph_01.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;When you are working with a p2 site provided by eclipse, Oomph can help to &lt;a href=&quot;https://wiki.eclipse.org/Eclipse_Oomph_Authoring#How_to_find_a_P2_repository_at_Eclipse_using_the_Repository_Explorer&quot; target=&quot;_blank&quot;&gt;identify update site locations&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;u&gt;&lt;b&gt;Step 2: Add features&lt;/b&gt;&lt;/u&gt;&lt;br /&gt;&lt;br /&gt;Once you added the repository you can start to add features to be installed from that site. The manual way requires you to create a new child node of type &lt;i&gt;Requirement&lt;/i&gt;. Go to its &lt;i&gt;Properties&lt;/i&gt; and set &lt;i&gt;Name&lt;/i&gt; to the feature id you want to install. You may add version ranges or make installs optional (which means do not throw an error when the feature cannot be installed).&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-W-4H7P8wn2c/V9qseNzB07I/AAAAAAAAAsA/AODSqI62cvYGxt_x-lxisQQHu96VV_6CgCLcB/s1600/oomph_02.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;305&quot; src=&quot;https://2.bp.blogspot.com/-W-4H7P8wn2c/V9qseNzB07I/AAAAAAAAAsA/AODSqI62cvYGxt_x-lxisQQHu96VV_6CgCLcB/s400/oomph_02.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;The tricky part is to find out the name of the feature you want to install. I like to use the &lt;a href=&quot;https://github.com/mbarbero/fr.obeo.releng.targetplatform&quot; target=&quot;_blank&quot;&gt;target platform editor&lt;/a&gt; from Mickael Barbero with its nice code completion features. An even simpler way is to use the &lt;i&gt;Repository Explorer&lt;/i&gt; from Oomph:&lt;br /&gt;&lt;br /&gt;Right click on your &lt;i&gt;Repository&lt;/i&gt; node and select &lt;i&gt;Explore&lt;/i&gt;. The &lt;i&gt;Repository Explorer&lt;/i&gt; view comes up and displays features the same way as you might know it from the eclipse p2 installer. Now you can drag and drop entries to your P2 Director task.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://3.bp.blogspot.com/-k6gZ2fWNXt0/V9qs2Er0SPI/AAAAAAAAAsE/0I-iDlIcSLQHzIEW7JjvrnRAjud1_eeWgCLcB/s1600/oomph_03.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;303&quot; src=&quot;https://3.bp.blogspot.com/-k6gZ2fWNXt0/V9qs2Er0SPI/AAAAAAAAAsE/0I-iDlIcSLQHzIEW7JjvrnRAjud1_eeWgCLcB/s400/oomph_03.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;</description>
+	<pubDate>Thu, 15 Sep 2016 14:15:01 +0000</pubDate>
+	<author>noreply@blogger.com (Christian Pontesegger)</author>
+</item>
+<item>
+	<title>Eclipse Announcements: Keynotes, Tracks and Sponsors Announced for the 11th Annual EclipseCon Europe Conference</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/yjwACz5QV7g/20160914_ece2016.php</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/yjwACz5QV7g/20160914_ece2016.php</link>
+	<description>The Eclipse Foundation is pleased to announce EclipseCon Europe 2016.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/yjwACz5QV7g&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 15 Sep 2016 13:19:30 +0000</pubDate>
+</item>
+<item>
+	<title>Lars Vogel: Contribute to the vogella Android tutorials via Github pull requests</title>
+	<guid isPermaLink="false">http://blog.vogella.com/?p=7474</guid>
+	<link>http://blog.vogella.com/2016/09/15/contribute-to-the-vogella-android-tutorials-via-github-pull-requests/</link>
+	<description>&lt;p&gt;If you want to contribute an improvement to the &lt;a href=&quot;http://www.vogella.com/tutorials/android.html&quot;&gt;vogella Android tutorials&lt;/a&gt;, we are providing our Android tutorials Asciidoc source code via Github. Please clone and send your Pull Requests.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/vogellacompany/com.vogella.tutorials.android&quot;&gt;vogella Android tutorial at Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks for your contributions and lets kill all these typos. &lt;img alt=&quot;:-)&quot; class=&quot;wp-smiley&quot; src=&quot;http://blog.vogella.com/wp-includes/images/smilies/simple-smile.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;</description>
+	<pubDate>Thu, 15 Sep 2016 06:25:42 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: Java 9 module-info Files in the Eclipse IDE</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=3720</guid>
+	<link>https://waynebeaton.wordpress.com/2016/09/14/java-9-module-info-files-in-the-eclipse-ide/</link>
+	<description>&lt;p&gt;&lt;em&gt;Note that this post is not intended to be a status update; it’s just a quick update based on some experimenting that I’ve been doing with the beta code.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;It’s been a while, but I’m back to experimenting in Java 9 support in the Eclipse IDE.&lt;/p&gt;
+&lt;p&gt;For testing purposes, I downloaded the most recent &lt;em&gt;Oxygen&lt;/em&gt; (4.7) &lt;a href=&quot;http://download.eclipse.org/eclipse/downloads/&quot;&gt;integration build&lt;/a&gt; (I20160914-0800) from the Eclipse Project downloads the latest  &lt;a href=&quot;https://jdk9.java.net/download/&quot;&gt;Java 9 JRE build&lt;/a&gt; (135).&lt;/p&gt;
+&lt;p&gt;I configured the Eclipse IDE to run on the Java 9 JVM. This still requires a minor change in the eclipse.ini file: to launch successfully, you must add &lt;code&gt;--add-modules=java.se.ee&lt;/code&gt; to the &lt;code&gt;vmargs&lt;/code&gt; section (I expect this to be resolved before Java 9 support is officially released; see &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=493761&quot;&gt;Bug 493761&lt;/a&gt; for more information). I used and used the &lt;em&gt;Install new software…&lt;/em&gt; dialog to pull in updates from the BETA_JAVA9 SDK builds repository (see the &lt;a href=&quot;https://wiki.eclipse.org/Java9&quot;&gt;Java9&lt;/a&gt; Eclipsepedia page for more information).&lt;/p&gt;
+&lt;p&gt;I created a very simple Java application with a &lt;code&gt;module-info.java&lt;/code&gt; file. Content assist is available for this file.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;screenshot-from-2016-09-14-14-27-24&quot; class=&quot;alignnone size-full wp-image-3722&quot; src=&quot;https://waynebeaton.files.wordpress.com/2016/09/screenshot-from-2016-09-14-14-27-24.png?w=640&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Note that there is an error indicated on the import of &lt;code&gt;java.awt.Frame&lt;/code&gt;. This error exists because the module info file does not provide visibility to that class (AWT is not included with &lt;code&gt;java.base&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;If we change that requires statement, the visibility issue is resolved and the compiler is happy. Well, mostly happy. Apparently not using declared variables gets you a stern warning (this is, of course, configurable).&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;screenshot-from-2016-09-14-14-27-51&quot; class=&quot;alignnone size-full wp-image-3721&quot; src=&quot;https://waynebeaton.files.wordpress.com/2016/09/screenshot-from-2016-09-14-14-27-51.png?w=640&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The Eclipse Project is planning to ship support as part of an &lt;a href=&quot;http://www.eclipse.org/neon&quot;&gt;Eclipse Neon&lt;/a&gt; update release that coincides with the official release date of Java 9. I’ll be talking a bit about this during my JavaOne talk and demonstrating this (and more Java topics) at the Eclipse Foundation’s booth.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Conference: JavaOne&lt;br /&gt;
+Session Type: Conference Session&lt;br /&gt;
+Session ID: CON6469&lt;br /&gt;
+Session Title: Developing Java Applications with Eclipse Neon&lt;br /&gt;
+Room: Hilton—Continental Ballroom 6&lt;br /&gt;
+Date and Time: 09/19/16, 11:00:00 AM – 12:00:00 PM&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The call for papers for &lt;a href=&quot;http://devoxx.us/&quot;&gt;Devoxx US&lt;/a&gt; is open. Devoxx is a community conference from developers for developers. &lt;a href=&quot;http://cfp.devoxx.us/&quot;&gt;Submit your proposal&lt;/a&gt; now.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/waynebeaton.wordpress.com/3720/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/waynebeaton.wordpress.com/3720/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=waynebeaton.wordpress.com&amp;amp;blog=19425814&amp;amp;post=3720&amp;amp;subd=waynebeaton&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 14 Sep 2016 19:31:44 +0000</pubDate>
+</item>
+<item>
 	<title>vert.x project: Vert.x 3.3.3 is released !</title>
 	<guid isPermaLink="true">http://vertx.io/blog/vert-x-3-3-3-is-released</guid>
 	<link>http://vertx.io/blog/vert-x-3-3-3-is-released</link>
@@ -360,7 +1052,7 @@ mvn &lt;span class=&quot;hljs-keyword&quot;&gt;package&lt;/span&gt; &lt;span cla
 	<title>Lorenzo Bettini: The second edition of the Xtext book has been published</title>
 	<guid isPermaLink="false">http://www.lorenzobettini.it/?p=891</guid>
 	<link>http://www.lorenzobettini.it/2016/09/the-second-edition-of-the-xtext-book-has-been-published/</link>
-	<description>&lt;p&gt;The &lt;strong&gt;second edition&lt;/strong&gt; of the Xtext book, &lt;strong&gt;Implementing Domain-Specific Languages with Xtext and Xtend&lt;/strong&gt;, was published at the end of August: &lt;a href=&quot;https://www.packtpub.com/web-development/implementing-domain-specific-languages-xtext-and-xtend-second-edition&quot; target=&quot;_blank&quot;&gt;https://www.packtpub.com/web-development/implementing-domain-specific-languages-xtext-and-xtend-second-edition&lt;/a&gt;. So… get it while it’s hot &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;
+	<description>&lt;p&gt;The &lt;strong&gt;second edition&lt;/strong&gt; of the Xtext book, &lt;strong&gt;Implementing Domain-Specific Languages with Xtext and Xtend&lt;/strong&gt;, was published at the end of August: &lt;a href=&quot;https://www.packtpub.com/web-development/implementing-domain-specific-languages-xtext-and-xtend-second-edition&quot; target=&quot;_blank&quot;&gt;https://www.packtpub.com/web-development/implementing-domain-specific-languages-xtext-and-xtend-second-edition&lt;/a&gt;. So… get it while it’s hot &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.lorenzobettini.it/2016/07/the-second-edition-of-the-xtext-book-has-been-published/4965os_5541_implementing-domain-specific-languages-with-xtext-and-xtend-second-edition/&quot; rel=&quot;attachment wp-att-893&quot;&gt;&lt;img alt=&quot;4965OS_5541_Implementing Domain Specific Languages with Xtext and Xtend - Second Edition&quot; class=&quot;aligncenter size-full wp-image-893&quot; height=&quot;617&quot; src=&quot;http://www.lorenzobettini.it/wp-content/uploads/2016/07/4965OS_5541_Implementing-Domain-Specific-Languages-with-Xtext-and-Xtend-Second-Edition.jpg&quot; width=&quot;500&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Please, see&lt;a href=&quot;http://www.lorenzobettini.it/2016/07/the-forthcoming-second-edition-of-the-xtext-book/&quot; target=&quot;_blank&quot;&gt; my previous post&lt;/a&gt; for details about the novelties in this edition.&lt;/p&gt;
 &lt;p&gt;Sources of the examples are on github: &lt;a href=&quot;https://github.com/LorenzoBettini/packtpub-xtext-book-2nd-examples&quot; target=&quot;_blank&quot;&gt;https://github.com/LorenzoBettini/packtpub-xtext-book-2nd-examples&lt;/a&gt;.&lt;/p&gt;
@@ -391,313 +1083,6 @@ mvn &lt;span class=&quot;hljs-keyword&quot;&gt;package&lt;/span&gt; &lt;span cla
 
   &lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;sociable&quot; style=&quot;float: none;&quot;&gt;&lt;ul class=&quot;clearfix&quot;&gt;&lt;li id=&quot;Twitter_Counter&quot;&gt;&lt;a class=&quot;twitter-share-button&quot; href=&quot;https://twitter.com/share&quot;&gt;Tweet&lt;/a&gt;&lt;/li&gt;&lt;li id=&quot;Facebook_Counter&quot;&gt;&lt;/li&gt;&lt;li id=&quot;Google_p&quot;&gt;&lt;/li&gt;&lt;li id=&quot;LinkedIn_Counter&quot;&gt;&lt;/li&gt;&lt;li id=&quot;StumbleUpon_Counter&quot;&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
 	<pubDate>Mon, 05 Sep 2016 07:04:14 +0000</pubDate>
-</item>
-<item>
-	<title>Ekkehard Gentz: In 45 Minutes: from Scratch to App for Android, iOS, Windows 10</title>
-	<guid isPermaLink="false">http://ekkescorner.wordpress.com/?p=4333</guid>
-	<link>https://ekkescorner.wordpress.com/2016/09/04/in-45-minutes-from-scratch-to-app-for-android-ios-windows-10/</link>
-	<description>&lt;p&gt;As you know last months I evaluated Qt 5.7 and new Qt Quick Controls 2 for x-platform mobile App development.&lt;/p&gt;
-&lt;h1&gt;Qt Con Conference App&lt;/h1&gt;
-&lt;p&gt;You can see a first App live at Google Play, Apple App Store or Amazon App Store: Search for ‘QtCon’:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;qtcon_google_play&quot; class=&quot;alignnone wp-image-4334 size-large&quot; height=&quot;557&quot; src=&quot;https://ekkescorner.files.wordpress.com/2016/09/qtcon_google_play.png?w=550&amp;amp;h=557&quot; width=&quot;550&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The Application is available &lt;a href=&quot;https://github.com/ekke/c2gQtCon_x&quot; target=&quot;_blank&quot;&gt;Open Source at Github&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Blog with some more details: &lt;a href=&quot;http://bit.ly/qtCon2016App&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Next Conference App for Qt World Summit in San Francisco will also be available from Windows App Store (Windows 10) and BlackBerry World (BlackBerry 10)&lt;/p&gt;
-&lt;h1&gt;Talk at Code Talks in Hamburg&lt;/h1&gt;
-&lt;p&gt;I will demonstrate the power of Qt 5.7 / Qt Quick Controls at&lt;a href=&quot;https://www.codetalks.de/2016/programm/mit-qt-quickcontrols2-in-45-minuten-vom-entwurf-zur-mobilen-app-fuer-android-und-ios&quot; target=&quot;_blank&quot;&gt; Code Talks in Hamburg&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;in &lt;strong&gt;45 Minutes from Scratch to App&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;ekke_codetalks&quot; class=&quot;alignnone wp-image-4335 size-large&quot; height=&quot;352&quot; src=&quot;https://ekkescorner.files.wordpress.com/2016/09/ekke_codetalks.png?w=550&amp;amp;h=352&quot; width=&quot;550&quot; /&gt;&lt;/p&gt;
-&lt;h1&gt;BlackBerry 10&lt;/h1&gt;
-&lt;p&gt;Perhaps you’re asking “&lt;em&gt;And what about your BlackBerry 10 Development, ekke ?&lt;/em&gt;”&lt;/p&gt;
-&lt;p&gt;Nothing has changed – I’m still developing business Apps for BlackBerry 10 – and the good thing: I can re-use most of the C++ / Qt Code for Android / iOS / W10&lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt; Also App Architecture and events (Qt SIGNALS – SLOTS concept) are similar.&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://ekkescorner.wordpress.com/category/bb10/&quot;&gt;BB10&lt;/a&gt;, &lt;a href=&quot;https://ekkescorner.wordpress.com/category/bb10/c/&quot;&gt;C++&lt;/a&gt;, &lt;a href=&quot;https://ekkescorner.wordpress.com/category/bb10/cascades/&quot;&gt;Cascades&lt;/a&gt;, &lt;a href=&quot;https://ekkescorner.wordpress.com/category/mobile/&quot;&gt;mobile&lt;/a&gt;, &lt;a href=&quot;https://ekkescorner.wordpress.com/category/qt/&quot;&gt;Qt&lt;/a&gt;  &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=ekkescorner.wordpress.com&amp;amp;blog=7691743&amp;amp;post=4333&amp;amp;subd=ekkescorner&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Sun, 04 Sep 2016 15:59:53 +0000</pubDate>
-</item>
-<item>
-	<title>Benjamin Cabe: IoT Programming Workshops</title>
-	<guid isPermaLink="false">https://blog.benjamin-cabe.com/?p=2674</guid>
-	<link>http://feedproxy.google.com/~r/benjamin-cabe-planet-eclipse/~3/EXX1nF49cs4/iot-programming-workshops</link>
-	<description>&lt;p&gt;Over the past two years, I’ve delivered several &lt;strong&gt;training sessions and workshops about IoT Programming&lt;/strong&gt;. Depending on the audience and their background, those sessions have been either one-day or two-day long.&lt;/p&gt;
-&lt;p&gt;As you probably know, IoT is really broad, and one needs to be familiar with all the pieces involved in an IoT solution to be able to design and build an efficient IoT solution. For example, I strongly believe that every software developer building an IoT solution today needs to care about the hardware, which is why the workshop starts with a pretty extensive &lt;strong&gt;overview of the hardware landscape&lt;/strong&gt;, and goes through things like the &lt;strong&gt;different classes of IoT devices&lt;/strong&gt; that may exist (from micro-controllers to powerful system-on-chips, when should you use one or the other?), to the different kinds of sensors, before moving on to the &lt;strong&gt;communication protocols&lt;/strong&gt; suited for IoT (like MQTT or CoAP).&lt;/p&gt;
-&lt;p&gt;The training includes &lt;strong&gt;many hands-on sessions&lt;/strong&gt;, and the participants get a chance to learn first-hand how to master the MQTT protocol (using Eclipse Paho), how to program IoT gateways, or how to build IoT visualizations.&lt;/p&gt;
-&lt;p&gt;The overall outline is the following, and can be adapted on a case-by-case basis, depending on the trainees’ expectations:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Introduction to the Internet of Things&lt;/li&gt;
-&lt;li&gt;Sensing and acting on the physical world: micro-controllers or powerful gateways?
-&lt;ol&gt;
-&lt;li&gt;What can be sensed and acted upon?&lt;/li&gt;
-&lt;li&gt;Overview of sensors and actuators technologies&lt;/li&gt;
-&lt;li&gt;Making an intelligent object
-&lt;ol&gt;
-&lt;li&gt;Different classes of devices for different needs&lt;/li&gt;
-&lt;li&gt;Interacting with sensors and actuators&lt;/li&gt;
-&lt;li&gt;Overview of IoT operating systems and frameworks.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;Connecting things, or how to build efficient and scalable sensor networks
-&lt;ol&gt;
-&lt;li&gt;Constraints of IoT Communications&lt;/li&gt;
-&lt;li&gt;Overview of different topologies for IoT networks&lt;/li&gt;
-&lt;li&gt;IoT Communication protocols
-&lt;ol&gt;
-&lt;li&gt;MQTT – Eclipse Paho, Eclipse Mosquitto&lt;/li&gt;
-&lt;li&gt;CoAP – Eclipse Californium&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;Managing IoT solutions
-&lt;ol&gt;
-&lt;li&gt;IoT Gateways – Eclipse Kura&lt;/li&gt;
-&lt;li&gt;Device Management &amp;amp; Software Provisioning – Eclipse Leshan, Eclipse hawkBit&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;If you are interested in participating to similar workshops in the future, either for yourself or for your company, &lt;a href=&quot;https://blog.benjamin-cabe.com/contact&quot;&gt;please get in touch&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/benjamin-cabe-planet-eclipse/~4/EXX1nF49cs4&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Fri, 02 Sep 2016 08:58:30 +0000</pubDate>
-</item>
-<item>
-	<title>Cedric Brun: ⦏Breaking News Eclipse Sirius⦎ SiriusCon 2016 is coming!</title>
-	<guid isPermaLink="false">http://cedric.brun.io/eclipse/siriuscon-is-coming</guid>
-	<link>http://cedric.brun.io/eclipse/siriuscon-is-coming/</link>
-	<description>&lt;p&gt;The team is not only polishing Sirius 4.1.0 which is planned for the end of September, but also preparing for the ultimate event for the Sirius community aka &lt;a href=&quot;http://www.siriuscon.org/&quot;&gt;SiriusCon&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;We organized the first edition last year with the help of the Eclipse Fundation: a one-day free event with two tracks filled with highly specialized talks and sessions dedicated to discovery. It looks like we stroke a right balance and feedback was excellent for the first edition.  It is with excitement and anticipation that we are preparing SiriusCon 2016 based on the same fundamentals:&lt;/p&gt;
-
-&lt;h3 id=&quot;paris&quot;&gt;Paris&lt;/h3&gt;
-
-&lt;figure&gt;
-    &lt;a href=&quot;http://cedric.brun.io/images/blog/siriuscon/venue.jpg&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/siriuscon/venue.jpg&quot; /&gt;&lt;/a&gt;    
-    
-&lt;/figure&gt;
-
-&lt;p&gt;An international event in one of the most beautiful city in the world: Paris. That’s a pleasure to gather in such a central venue and this makes the event &lt;strong&gt;really easy to come to&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;strong-content&quot;&gt;Strong content&lt;/h3&gt;
-
-&lt;figure&gt;
-    &lt;a href=&quot;http://cedric.brun.io/images/blog/siriuscon/talks.jpg&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/siriuscon/talks.jpg&quot; /&gt;&lt;/a&gt;    
-    
-&lt;/figure&gt;
-
-&lt;p&gt;I’s only one day but it is filled with 30 minutes sessions:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;exclusive content from the Sirius team tackling subjects related to best practices, the project roadmap or integration with other technologies from the Eclipse Ecosystem&lt;/li&gt;
-  &lt;li&gt;presentations from the user community, being use cases, testimonies, experiments or other cool stuff. The 2015 edition featured talks from Etas (Bosch), Airbus, Covéa, Thales and other eminent organizations (There is only one week left til the end of the call for paper, submit your proposal at &lt;a href=&quot;http://cedric.brun.io/mailto:siriuscon@obeo.fr!&quot;&gt;siriuscon@obeo.fr&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;session focused on discovering the technology with tutorials and presentations of the latest features!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;the-sirius-clinic-and-tutorials&quot;&gt;The Sirius Clinic and Tutorials&lt;/h3&gt;
-
-&lt;figure&gt;
-    &lt;a href=&quot;http://cedric.brun.io/images/blog/siriuscon/clinic.jpg&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/siriuscon/clinic.jpg&quot; /&gt;&lt;/a&gt;    
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Come with your laptop and book a timeslot with a Sirius commiter: you will get feedback on your projects or solve any Sirius related issue you face. It’s been highly appreciated by the attendees last year, make sure you take this opportunity to boost your project or experiment !&lt;/p&gt;
-
-&lt;p&gt;You never used Sirius? We also got you covered with a beginner tutorial in the afternoon, you will see how the technology works and how to leverage it efficiently and easily. It is followed by a new tutorial covering more advanced features and the brand new support for dynamic property views.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-discussions&quot;&gt;The discussions&lt;/h3&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Lunch time at &lt;a href=&quot;https://twitter.com/hashtag/SiriusCon?src=hash&quot;&gt;#SiriusCon&lt;/a&gt;! A break before afternoon technical sessions and tutorial &lt;a href=&quot;https://t.co/962sWI5kXI&quot;&gt;pic.twitter.com/962sWI5kXI&lt;/a&gt;&lt;/p&gt;— Frédéric Madiot (@fmadiot) &lt;a href=&quot;https://twitter.com/fmadiot/status/672386048484339712&quot;&gt;3 décembre 2015&lt;/a&gt;&lt;/blockquote&gt;
-
-
-&lt;p&gt;And of course as the value of such event is also all the discussions you will have, friendly breaks and buffet lunch featuring awesome french food!&lt;/p&gt;
-
-&lt;h3 id=&quot;a-free-event&quot;&gt;A free event&lt;/h3&gt;
-
-&lt;p&gt;At last but not least the event is once again free, but although it’s free, &lt;strong&gt;book early as the number of places is limited to 130 seats!&lt;/strong&gt; Also note that it is scheduled slightly sooner than last year; on the November 15th, save the date and &lt;a href=&quot;http://www.siriuscon.org/register.php&quot;&gt;register using this web form&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;I’m looking forward to see you there!&lt;/p&gt;
-
-
-
-
-    &lt;p&gt;&lt;a href=&quot;http://cedric.brun.io/eclipse/siriuscon-is-coming/&quot;&gt;⦏Breaking News Eclipse Sirius⦎ SiriusCon 2016 is coming!&lt;/a&gt; was originally published by Cédric Brun at &lt;a href=&quot;http://cedric.brun.io&quot;&gt;CTO @ Obeo&lt;/a&gt; on September 02, 2016.&lt;/p&gt;</description>
-	<pubDate>Fri, 02 Sep 2016 00:00:00 +0000</pubDate>
-	<author>cedric.brun@obeo.fr (Cédric Brun)</author>
-</item>
-<item>
-	<title>Eclipse Announcements: September Donation Campaign</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/StxOEJWjpbQ/</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/StxOEJWjpbQ/</link>
-	<description>This month, we are asking you to give back to our wonderful open source community.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/StxOEJWjpbQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 01 Sep 2016 14:19:32 +0000</pubDate>
-</item>
-<item>
-	<title>Ian Skerrett: September Donation Campaign: Target 3000</title>
-	<guid isPermaLink="false">http://ianskerrett.wordpress.com/?p=3713</guid>
-	<link>http://feedproxy.google.com/~r/IanSkerrett/~3/StxOEJWjpbQ/</link>
-	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Donations are an important way for our Eclipse users to give back, and to support our open source community. Last September, we announced that all donations to the&lt;/span&gt;&lt;a href=&quot;https://eclipse.org/contribute/dev_program.php&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; Friends of Eclipse program&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; would be invested in the Eclipse platform development. In a  short period of time we have accomplished a lot with these donations, helping fund some &lt;/span&gt;&lt;a href=&quot;https://mikael-barbero.tumblr.com/post/145308146515/its-feep-ing-time&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;major platform improvements&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;We would like to encourage even more Eclipse end users to help support the community. In 2015, 6300 individuals donated to Friend of Eclipse, but this represents a small portion of our community. It is been nearly 15 years since Eclipse was made freely available and over these years millions of developers have benefited. We would like encourage more of these developers to help support the ongoing development of the Eclipse platform.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;To help boost our donations, we are launching a new September Donation Campaign. The campaign is inspired by the famous Wikipedia fundraising drives. During the month of September,  eclipse.org visitors will see a banner at the top of the website asking them to give back, and to support the Eclipse community. We will also be promoting the campaign on social media.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Our goal for September is to have 3000 individuals donate back to the Eclipse community. I hope you will help us in achieving this goal; &lt;/span&gt;&lt;a href=&quot;http://www.eclipse.org/donate/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;donate today&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;div class=&quot;wp-caption aligncenter&quot; style=&quot;width: 478px;&quot;&gt;&lt;a href=&quot;http://www.eclipse.org/donate/&quot;&gt;&lt;img class=&quot;image_hide&quot; height=&quot;234&quot; src=&quot;https://files.slack.com/files-tmb/T0UKT20DP-F26QQ0DFT-51952d17f6/mountain_3000_target_720.png&quot; style=&quot;border: 0 solid #ffffff;&quot; width=&quot;468&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Friends of Eclipse&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/ianskerrett.wordpress.com/3713/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/ianskerrett.wordpress.com/3713/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=ianskerrett.wordpress.com&amp;amp;blog=405862&amp;amp;post=3713&amp;amp;subd=ianskerrett&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/IanSkerrett/~4/StxOEJWjpbQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 01 Sep 2016 14:00:57 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Devoxx US Call for Papers is Open!</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/8otOr1ePXDc/</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/8otOr1ePXDc/</link>
-	<description>Submit your session talk today for the first Devoxx US, coming to California March 21-23, 2017.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/8otOr1ePXDc&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 01 Sep 2016 13:18:56 +0000</pubDate>
-</item>
-<item>
-	<title>vert.x project: Vert.x Blueprint Tutorials</title>
-	<guid isPermaLink="true">http://vertx.io/blog/vert-x-blueprint-tutorials</guid>
-	<link>http://vertx.io/blog/vert-x-blueprint-tutorials</link>
-	<description>&lt;article&gt;&lt;p&gt;The Vert.x Blueprint project aims to provide guidelines to Vert.x users to implement various applications such as message-based applications and microservices. This post introduces the content of each blueprints.&lt;/p&gt;
-&lt;p&gt;This work has been done in the context of a &lt;a href=&quot;https://developers.google.com/open-source/gsoc/&quot;&gt;Google Summer of Code project&lt;/a&gt; .&lt;/p&gt;
-&lt;h1 id=&quot;overview&quot;&gt;Overview&lt;/h1&gt;
-&lt;p&gt;The blueprint project contains three parts: &lt;strong&gt;Todo Backend&lt;/strong&gt;, &lt;strong&gt;Vert.x Kue&lt;/strong&gt; and &lt;strong&gt;Online Shopping Microservice&lt;/strong&gt;. Both runnable code and very detailed documents and tutorials (both in English and Chinese) are provided.&lt;/p&gt;
-&lt;h1 id=&quot;vert-x-blueprint-todo-backend&quot;&gt;Vert.x Blueprint - Todo Backend&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Repository&lt;/strong&gt;: &lt;a href=&quot;https://github.com/sczyh30/vertx-blueprint-todo-backend&quot;&gt;sczyh30/vertx-blueprint-todo-backend&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This blueprint is a todo-backend implementation using Vert.x and various persistence (e.g. Redis or MySQL). It is intended to be an introduction to basic Vert.x web RESTful service development. From this blueprint, developers  learn:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;What is Vert.x and its principles&lt;/li&gt;
-&lt;li&gt;What is and how to use &lt;code&gt;Verticle&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;How to develop a REST API using &lt;a href=&quot;http://vertx.io/docs/vertx-web/java/&quot;&gt;Vert.x Web&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;How to make use of &lt;strong&gt;asynchronous development model&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Future&lt;/code&gt;-based asynchronous patterns&lt;/li&gt;
-&lt;li&gt;How to use persistence such as &lt;em&gt;Redis&lt;/em&gt; and &lt;em&gt;MySQL&lt;/em&gt; with the help of Vert.x async data&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The tutorials are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://sczyh30.github.io/vertx-blueprint-todo-backend/&quot;&gt;Vert.x Blueprint - Todo Backend (English version)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://sczyh30.github.io/vertx-blueprint-todo-backend/cn/&quot;&gt;Vert.x Blueprint - Todo Backend (Chinese version)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://raw.githubusercontent.com/sczyh30/vertx-blueprint-todo-backend/master/docs/img/vertx-todobackend-ui.png&quot; /&gt;&lt;/p&gt;
-&lt;h1 id=&quot;vert-x-blueprint-vert-x-kue&quot;&gt;Vert.x Blueprint - Vert.x Kue&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Repository&lt;/strong&gt;: &lt;a href=&quot;https://github.com/sczyh30/vertx-blueprint-job-queue&quot;&gt;sczyh30/vertx-blueprint-job-queue&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This blueprint is a priority job queue developed with Vert.x and backed by Redis. It’s a Vert.x implementation version of &lt;a href=&quot;https://github.com/Automattic/kue&quot;&gt;Automattic/kue&lt;/a&gt; that can be used in production.&lt;/p&gt;
-&lt;p&gt;The list of features provided by Vert.x Kue is available here: &lt;a href=&quot;https://github.com/sczyh30/vertx-blueprint-job-queue/blob/master/docs/en/vertx-kue-features-en.md&quot;&gt;Vert.x Kue Features&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This blueprint is intended to be an introduction to message-based application development using Vert.x. From this blueprint, developers learn:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;How to make use of &lt;strong&gt;Vert.x Event Bus&lt;/strong&gt; (distributed)&lt;/li&gt;
-&lt;li&gt;How to develop message based applications with Vert.x&lt;/li&gt;
-&lt;li&gt;Event and message patterns with the event bus (Pub/sub, point to point)&lt;/li&gt;
-&lt;li&gt;How to design clustered Vert.x applications&lt;/li&gt;
-&lt;li&gt;How to design and implement a job queue&lt;/li&gt;
-&lt;li&gt;How to use &lt;strong&gt;Vert.x Service Proxy&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;More complex usage of &lt;a href=&quot;http://vertx.io/docs/vertx-redis-client/java/&quot;&gt;Vert.x Redis&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The tutorial are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;English version&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://sczyh30.github.io/vertx-blueprint-job-queue/kue-core/index.html&quot;&gt;Vert.x Kue Core Tutorial - English Version&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://sczyh30.github.io/vertx-blueprint-job-queue/kue-http/index.html&quot;&gt;Vert.x Kue Web Tutorial - English Version&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Chinese version&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://sczyh30.github.io/vertx-blueprint-job-queue/cn/kue-core/index.html&quot;&gt;Vert.x 蓝图 - Vert.x Kue (Core部分)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://sczyh30.github.io/vertx-blueprint-job-queue/cn/kue-http/index.html&quot;&gt;Vert.x 蓝图 - Vert.x Kue (Web部分)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://raw.githubusercontent.com/sczyh30/vertx-blueprint-job-queue/master/docs/images/vertx_kue_ui_1.png&quot; /&gt;&lt;/p&gt;
-&lt;h1 id=&quot;vert-x-blueprint-online-shopping-microservice&quot;&gt;Vert.x Blueprint - Online Shopping Microservice&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Repository&lt;/strong&gt;: &lt;a href=&quot;https://github.com/sczyh30/vertx-blueprint-microservice&quot;&gt;sczyh30/vertx-blueprint-microservice&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This blueprint is a micro-shop microservice application developed with Vert.x. It is intended to be an illustration on how to develop microservice applications using Vert.x. From this blueprint, developers learn:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Microservice development with Vert.x&lt;/li&gt;
-&lt;li&gt;Asynchronous development model&lt;/li&gt;
-&lt;li&gt;Reactive patterns&lt;/li&gt;
-&lt;li&gt;Event sourcing patterns&lt;/li&gt;
-&lt;li&gt;Asynchronous RPC on the clustered event bus&lt;/li&gt;
-&lt;li&gt;Various type of services (e.g. HTTP endpoint, message source, event bus service)&lt;/li&gt;
-&lt;li&gt;Vert.x Service Discovery&lt;/li&gt;
-&lt;li&gt;Vert.x Circuit Breaker&lt;/li&gt;
-&lt;li&gt;Microservice with polyglot persistence&lt;/li&gt;
-&lt;li&gt;How to implement an API Gateway&lt;/li&gt;
-&lt;li&gt;Global authentication (OAuth 2 + Keycloak)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;And many more things…&lt;/p&gt;
-&lt;p&gt;The tutorial are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;English version&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://sczyh30.github.io/vertx-blueprint-microservice/index.html&quot;&gt;Vert.x Microservice Blueprint Tutorial - Development&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://sczyh30.github.io/vertx-blueprint-microservice/api-gateway.html&quot;&gt;Vert.x Microservice Blueprint Tutorial - API Gateway&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Chinese version&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://sczyh30.github.io/vertx-blueprint-microservice/cn/index.html&quot;&gt;Vert.x 蓝图 - Micro Shop 微服务实战 (开发篇)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://sczyh30.github.io/vertx-blueprint-microservice/cn/api-gateway.html&quot;&gt;Vert.x 蓝图 - Micro Shop 微服务实战 (API Gateway)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://raw.githubusercontent.com/sczyh30/vertx-blueprint-microservice/master/docs/images/shopping-spa-product-detail.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://raw.githubusercontent.com/sczyh30/vertx-blueprint-microservice/master/docs/images/monitor-dashboard.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Enjoy the code carnival with Vert.x!&lt;/p&gt;
-&lt;/article&gt;</description>
-	<pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Torkild Ulvøy Resheim: The Eclipse Neon DemoCamp in Trondheim</title>
-	<guid isPermaLink="false">https://resheim.net/?p=1749</guid>
-	<link>https://resheim.net/2016/08/trondheim-eclipse-neon-democamp.html</link>
-	<description>&lt;p&gt;&lt;span class=&quot;wpsdc-drop-cap&quot;&gt;F&lt;/span&gt;or the sixth year in a row &lt;a href=&quot;http://itema.no&quot;&gt;Itema&lt;/a&gt; has hosted an Eclipse DemoCamp in &lt;a href=&quot;http://trondheim.com&quot;&gt;Trondheim&lt;/a&gt;. And even though I might be biased; I would have to say it was a real pleasure. There was the usual, fairly small crowd and a few new faces. The friendly atmosphere, excellent food and beverages and really top notch presentations made it one of my highlights of the Eclipse-year.&lt;/p&gt;&lt;p&gt;Over the years, there has been a clear trend towards more science content in our event. Personally I really enjoy this. There are plenty of talks on how to do this and that with Eclipse, but not so many on how Eclipse technologies are used in science and research. I hope that next year we can make better use of this knowledge and have even more attendants from the science community.&lt;/p&gt;&lt;p&gt;After a warm welcome by Lone Madsen, the CEO of Itema, we saw Ralph Müller of the Eclipse Foundation give an introduction to the work of the foundation and how open source has changed the way one can do business in consulting and in the software industry in general.&lt;/p&gt;&lt;p&gt;Next up was Hallvard Trætteberg, a professor at &lt;a href=&quot;http://www.ntnu.edu&quot;&gt;NTNU&lt;/a&gt;, to give us an introduction to &lt;a href=&quot;https://eclipse.org/sirius/&quot;&gt;Eclipse Sirius&lt;/a&gt; and how it can be used to model the genealogy of Pokemons &lt;img alt=&quot;😄&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2/72x72/1f604.png&quot; style=&quot;height: 1em;&quot; /&gt; Hallvard often uses Eclipse technologies in his classes, so it was interesting to see how he leverages good documentation and API in open source projects to help students understand software development.&lt;/p&gt;&lt;p&gt;As a follow-up on the Sirius introduction: Erlend Stav from &lt;a href=&quot;https://www.sintef.no/en/information-and-communication-technology-ict/&quot;&gt;SINTEF ICT&lt;/a&gt; talked about how Eclipse Sirius is being used in a EU project to model sensors, actuators and the relationship between these in a complex structure, such as in a modern airplane. Apparently a modern Airbus has several hundred kilometers of cabling that weighs a total way-too-much, so this can be improved using smarter modules. Open source technologies is playing a big role in this. This resulting code is not open source though.&lt;/p&gt;&lt;p&gt;Håvard Heierli-Nesse from &lt;a href=&quot;http://www.sintef.no/en/marintek/&quot;&gt;MARINTEK&lt;/a&gt; introduced us to the world of 3D modeling and the &lt;a href=&quot;https://projects.eclipse.org/projects/technology.eavp&quot;&gt;Eclipse Advanced Visualization Project&lt;/a&gt; (EAVP). This project is part of the &lt;a href=&quot;https://science.eclipse.org&quot;&gt;Eclipse Science Working Group&lt;/a&gt;’s efforts to lower the bar on developing scientific applications. In particular visualization of problems and post-processing results. In this case 3D models of both. He demonstrated their current solution using a commercial rendering engine and what can be achieved with EAVP rendering using JavaFX. It was clear that EAVP has a way to go, but the point was that EAVP abstracts the rendering layer. Utilizing this technology allows you to ignore the nitty-gritty OpenGL and whatnots, so you can focus on getting your model representation right. Also he demonstrated how the numerical arrays in the &lt;a href=&quot;https://projects.eclipse.org/proposals/january&quot;&gt;Eclipse January&lt;/a&gt; API (also from the SWG) can be directly plugged into EAVP for rendering. He also mentioned that JavaFX is not the only rendering option for EAVP; ParaView and &lt;a href=&quot;https://www.ornl.gov&quot;&gt;ORLN&lt;/a&gt;‘s &lt;a href=&quot;https://computing.llnl.gov/vis/visit.shtml&quot;&gt;VisIt&lt;/a&gt; can also be used.&lt;/p&gt; &lt;a href=&quot;https://resheim.net/2016/08/trondheim-eclipse-neon-democamp.html#gallery-1749-1-slideshow&quot;&gt;Click to view slideshow.&lt;/a&gt;&lt;p&gt;Traditionally we have brought in a few speakers that have little to do with Eclipse in general. Not only because the Eclipse community in Trondheim is small, but also because it’s interesting to learn from other arenas. So this year Lars Eidnes from Itema gave us a nice introduction to machine learning and showed us the formula to get started solving certain problems using neural networks. It was a bit math-heavy according to some, but as one attendant summed it up: “Aha! That’s how they do it!”.&lt;/p&gt;&lt;p&gt;To follow that up; Per Arnold Blåsmo from &lt;a href=&quot;http://www.atmel.com&quot;&gt;Microchip/Atmel&lt;/a&gt; Norway explained how a small team’s use of agile practices; in a few years could grow into a pipeline of continuously deploying really complex pieces of software and hardware, in a global company, involving more than 110 developers and 1400 daily build jobs. Not unlike what Eclipse does, except what they’re doing involves a robot pulling microcontrollers from a shelf and connecting them to hardware debuggers to test the software tools as part of the Jenkins jobs. I think the lesson here was that best practices rules, even in a huge company, one just have to convince the management that the engineers knows best how to do their work. Good riddance to the Gantt charts!&lt;/p&gt;&lt;p&gt;Matthew Gerring from &lt;a href=&quot;http://www.diamond.ac.uk/Home.html&quot;&gt;Diamond Light Source&lt;/a&gt; (DLS) gave us a quick update on the Eclipse Science Working Group, as well as explaining how a synchrotron works, in particular the one located in Oxfordshire, UK. You get a feel of it once you’re actually inside it and the scale is overwhelming, I counted 31 beamlines, which I think equals the number of experiments one can do concurrently, and one beamline is the size of an average sized bedroom I guess. Then he went on into talking about the numerous Eclipse based software at DLS and how they are used. He also demonstrated a new feature in DAWN, their post-processing software, allowing you to do plug-in development from within the DAWN, test it, then deploy either to the running instance or to a &lt;a href=&quot;https://github.com/Itema-as/dawn-marketplace-server&quot;&gt;marketplace server&lt;/a&gt; for sharing. I’m glad the British and the Norwegians share the sense of humor, otherwise his stream of carefully placed jokes would fall on infertile ground. They did not.&lt;/p&gt;&lt;p&gt;We closed the event with a &lt;a href=&quot;https://getkahoot.com&quot;&gt;Kahoot&lt;/a&gt; quiz before having a couple of beers and moving to the &lt;a href=&quot;http://work-work.no&quot;&gt;Work-Work&lt;/a&gt; gaming lab (and bar).&lt;/p&gt;&lt;div class=&quot;twitter-share&quot;&gt;&lt;a class=&quot;twitter-share-button&quot; href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fresheim.net%2F2016%2F08%2Ftrondheim-eclipse-neon-democamp.html&amp;amp;via=torkildr&quot;&gt;Tweet&lt;/a&gt;&lt;/div&gt;</description>
-	<pubDate>Wed, 31 Aug 2016 17:37:02 +0000</pubDate>
-</item>
-<item>
-	<title>Alexander Kurtakov: Advanced and fast CSS styling for SWT</title>
-	<guid isPermaLink="false">tag:blogger.com,1999:blog-6005885087678136998.post-7488650547897088085</guid>
-	<link>http://akurtakov.blogspot.com/2016/08/advanced-and-fast-css-styling-for-swt.html</link>
-	<description>The strongest (or the weakest - depends of your angle) part of SWT is its deep system integration. But this means you get the Look'n'Feel of your system UI toolkit and any deviation from it (e.g. e4 theme engine) is either too limited or too slow or both.&lt;br /&gt;On the other side if the underlying UI toolkit provides really advanced and declarative styling capabilities (like &lt;a href=&quot;https://blogs.gnome.org/mclasen/2015/11/20/a-gtk-update/&quot;&gt;GTK+ does&lt;/a&gt;) making use of them from SWT is not hard at all. And we already start to use it extensively (to &lt;a href=&quot;http://git.eclipse.org/c/platform/eclipse.platform.swt.git/commit/?id=66ba477e7193ce2dc99a71e2a64f3dbdae5de469&quot;&gt;adjust tabs sizes&lt;/a&gt;, &lt;a href=&quot;http://c8ac1e50e48605a4413e8556478a874e0931912b/&quot;&gt;provide key bindings for tree expand/collapse&lt;/a&gt;) and usage will only increase over time. Best part of it is that it really works at the GTK level thus there is almost no performance penalty for sane operation (going wild with gradients and etc. will have a penalty of course) . Actually it's providing a custom GTK theme for you application allowing GTK to do all its caching and other optimizations . Something one can never achieve with custom drawing&lt;br /&gt;But this would never be enough - there are just too many different themes used, everyone has his own personal preferences about amount of white space around widgets and etc. So best thing we can do from SWT side is provide sane defaults for everyone and open the door for the heavy opinionated people to tweak their Eclipse UI as much as GTK+ allows them.&lt;br /&gt;Support for that is in master already. Download latest Oxygen nightly build (&lt;a href=&quot;http://download.eclipse.org/eclipse/downloads/drops4/N20160829-2000/&quot;&gt;N20160829-2000&lt;/a&gt; or newer), create your own css file (&lt;a href=&quot;https://developer.gnome.org/gtk3/stable/chap-css-overview.html&quot;&gt;GTK+ docs &lt;/a&gt;explain things pretty well) and edit your eclipse.ini file to point to it by adding a line like &lt;i&gt;-Dorg.eclipse.swt.internal.gtk.cssFile=/path/to/my.css&lt;/i&gt; in the &lt;i&gt;-vmargs &lt;/i&gt;section and enjoy.&lt;br /&gt;As a small example I created a really visually distinguishing style like:&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;button  {&lt;br /&gt;    border-width: 1px;&lt;br /&gt;    border-radius: 30px;&lt;br /&gt;&lt;br /&gt;    background-image: -gtk-gradient (linear,&lt;br /&gt;             left top,&lt;br /&gt;             left bottom,&lt;br /&gt;             color-stop(0.0,rgba(34,97,170,1)),&lt;br /&gt;             color-stop(0.50,rgba(56,145,218,1)),&lt;br /&gt;             color-stop(0.51,rgba(34,131,216,1)),&lt;br /&gt;             color-stop(1.00,rgba(134,191,234,1)));&lt;br /&gt;}&lt;br /&gt;button:hover {&lt;br /&gt;  box-shadow: inset 0 0 0 5px #3071A9;&lt;br /&gt;}&lt;/pre&gt;&lt;br /&gt;to achieve this &lt;a href=&quot;https://www.youtube.com/watch?v=4bsvwjcAyRo&quot;&gt;funky colors and hover effect&lt;/a&gt;.&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;This is just dummy example but at least there is the ability to tweak and make Eclipse match your personal preferences.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;NOTE: &lt;/b&gt;The ability to point to your css file is only exposed on systems having GTK+ version 3.20 or newer as this is the first GTK version that has specified and thus stabilized the syntax to a state exposable to users.&lt;br /&gt;&lt;b&gt;NOTE 2:&lt;/b&gt; If there is anyone with experience in Win32 and/or Cocoa UI toolkits knowing if they provide such capabilities and how they can be exposed  please contact me as it would be nice to have such feature exposed for every SWT user not just for those on GTK. In order for this to happen we need people with deep knowledge and vested interest in these other UI toolkits.</description>
-	<pubDate>Tue, 30 Aug 2016 09:11:24 +0000</pubDate>
-	<author>noreply@blogger.com (Alexander Kurtakov)</author>
-</item>
-<item>
-	<title>Maximilian and Jonas: EclipseSource Oomph Profile: Oomph Plug-Ins</title>
-	<guid isPermaLink="false">http://eclipsesource.com/blogs/?p=27141</guid>
-	<link>http://eclipsesource.com/blogs/2016/08/29/eclipsesource-oomph-profile-oomph-plug-ins/</link>
-	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As described in our previous post, we maintain a common Eclipse Oomph Profile with our favorite plugins and settings preconfigured. By using Oomph, you can install this version of Eclipse with a single click. &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2015/08/17/introducing-the-eclipsesource-oomph-profile/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;See here&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for a more thorough introduction and how to install the pre-configured Eclipse.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As promised, we will describe the things we adapted and added to the standard Eclipse Packages. In the last blogs, we described &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2015/09/09/eclipsesource-oomph-profile-favorite-eclipse-settings/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;our favorite settings&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2015/09/17/eclipsesource-oomph-profile-eclemma/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;ECLEmma &lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2015/11/09/eclipsesource-oomph-profile-checkstyle/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Checkstyle&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. The next plugin we would like to mention is somehow special, as it is provided by Oomph itself.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;This might sound confusing, as we already use Oomph for a simple deployment of the pre-configured IDE. Therefore, if you use the &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2015/08/17/introducing-the-eclipsesource-oomph-profile/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;preconfigured Oomph Profile&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, you have already used the stand-alone tool “Oomph Installer”. However, Oomph also provides three &lt;a href=&quot;http://eclipsesource.com/blogs/tutorials/oomph-basic-tutorial/&quot;&gt;useful IDE plugins&lt;/a&gt;, which definitely belong to our favorite list. In a nutshell, those Oomph plugins provide 3 features:&lt;/span&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;They keep an Eclipse installation up-to-date, e.g. if the profile that you use is updated or enhanced&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Besides setting up an Eclipse installation, Oomph can also configure project-specific things for you, including checking out sources, configuring working sets and more&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you want to create your own Oomph profile, either for a product or to work on a specific project, Oomph provides wizards and editors to assist you with this configuration&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Let us have a more detailed look on the different Oomph components (as shown in the following diagram). We describe the usage of all this more in detail in &lt;a href=&quot;http://eclipsesource.com/blogs/tutorials/oomph-basic-tutorial/&quot;&gt;this tutorial&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2016/08/image00-1.png&quot;&gt;&lt;img alt=&quot;image00&quot; class=&quot;alignnone size-full wp-image-27144&quot; height=&quot;274&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2016/08/image00-1.png&quot; width=&quot;797&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The &lt;/span&gt;&lt;b&gt;Oomph installer&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, which &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2015/08/17/introducing-the-eclipsesource-oomph-profile/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;we have already described&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, is responsible for creating and setting-up an Eclipse installation based on pre-configured profiles. There are two types of profiles, which can be selected during the installation.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Product Setup Models&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; describe an Eclipse installation, including which plug-ins should be installed, how it is launched, etc. Such Eclipse installations are the basis for your IDE to be used in several projects. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Project Setup Models&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; allow you to additionally configure a project-specific set-up. As an example, you can configure source repositories to be cloned, working sets or Mylyn queries to work on one sp ecific project. In the Eclipse installer, you always select a Product Setup Model first and then an optional Project Setup Model. As Project Setup Models can also influence the Eclipse installation, they are read by the Oomph Installer during the installation.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;After an Eclipse installation has been initially set-up, there are two runtime components, which are included and also consume the two Setup Models. The &lt;/span&gt;&lt;b&gt;Oomph Updater&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; checks the product setup model for any changes or updates. If it finds an update, the user is asked whether they should be applied. This easily enables you to centrally maintain an Eclipse Installation for many users. The component &lt;/span&gt;&lt;b&gt;Oomph Project Setup&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; will execute additional set-up steps specified in the project setup model, after the IDE has been started. As an example, it can clone a repository and import projects from it.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Last but not least, Oomph provides tooling to create and update the two setup models, we call this component &lt;/span&gt;&lt;b&gt;Oomph Authoring&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. It provides wizards and editors to use and adopt Oomph for your particular use case. The most basic use case is to define the product and project setup models, which can be created and supported by wizards:&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2016/08/image05.png&quot;&gt;&lt;img alt=&quot;image05&quot; class=&quot;alignnone size-full wp-image-27147&quot; height=&quot;440&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2016/08/image05.png&quot; width=&quot;506&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;By creating your own custom product and project setup model, you can customize Eclipse installations as you wish. This can be a generic profile containing all your favorite plugins and settings, or, a project specific profile, which completes not only the installation of an IDE, but also checks out sources, configures Mylyn queries, and creates working sets. If used by a group of developers, maintaining those profiles can significantly reduce the effort spent on setup. It also enables you to keep all team members on the same versions and update to new ones literally within 5 minutes.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Oomph website provides an &lt;/span&gt;&lt;a href=&quot;https://wiki.eclipse.org/Eclipse_Oomph_Authoring#Using_the_Setup_Editor&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;authoring guide&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; to create projects and product setup models. Based on this, we have additionally compiled &lt;a href=&quot;http://eclipsesource.com/blogs/tutorials/oomph-basic-tutorial/&quot;&gt;a tutorial&lt;/a&gt; describing Oomph in general, the Eclipse installer, as well as the creation of custom setup models. We hope this helps the community to make use of the great features that Oomph provides.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;display: inline-block;&quot;&gt;&lt;a href=&quot;https://twitter.com/intent/tweet?source=webclient&amp;amp;text=EclipseSource+Oomph+Profile%3A+Oomph+Plug-Ins&amp;amp;via=eclipsesource&amp;amp;url=http://eclipsesource.com/blogs/2016/08/29/eclipsesource-oomph-profile-oomph-plug-ins/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Share on Twitter&quot;&gt;&lt;img alt=&quot;Twitter&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/twitter.png&quot; title=&quot;Twitter&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://plus.google.com/share?url=http://eclipsesource.com/blogs/2016/08/29/eclipsesource-oomph-profile-oomph-plug-ins/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;+1&quot;&gt;&lt;img alt=&quot;Google+&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/google_plus.png&quot; title=&quot;Google+&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://www.linkedin.com/cws/share?url=http://eclipsesource.com/blogs/2016/08/29/eclipsesource-oomph-profile-oomph-plug-ins/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Share on LinkedIn&quot;&gt;&lt;img alt=&quot;LinkedIn&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/linkedin.png&quot; title=&quot;LinkedIn&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=http://eclipsesource.com/blogs/2016/08/29/eclipsesource-oomph-profile-oomph-plug-ins/&amp;amp;t=EclipseSource+Oomph+Profile%3A+Oomph+Plug-Ins&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Facebook&quot;&gt;&lt;img alt=&quot;Facebook&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/facebook.png&quot; title=&quot;Facebook&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2016/08/29/eclipsesource-oomph-profile-oomph-plug-ins/#respond&quot;&gt;Leave a Comment&lt;/a&gt;. Tagged with &lt;a href=&quot;http://eclipsesource.com/blogs/tag/eclipse/&quot; title=&quot;eclipse Tag&quot;&gt;eclipse&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/eclipsesource-oomph-profile/&quot; title=&quot;EclipseSource Oomph Profile Tag&quot;&gt;EclipseSource Oomph Profile&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/oomph/&quot; title=&quot;oomph Tag&quot;&gt;oomph&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/eclipse/&quot; title=&quot;eclipse Tag&quot;&gt;eclipse&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/eclipsesource-oomph-profile/&quot; title=&quot;EclipseSource Oomph Profile Tag&quot;&gt;EclipseSource Oomph Profile&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/oomph/&quot; title=&quot;oomph Tag&quot;&gt;oomph&lt;/a&gt;&lt;p&gt;&lt;/p&gt;</description>
-	<pubDate>Mon, 29 Aug 2016 13:58:39 +0000</pubDate>
-</item>
-<item>
-	<title>Lars Vogel: Out-of-office settings for Eclipse Bugzilla and Gerrit</title>
-	<guid isPermaLink="false">http://blog.vogella.com/?p=7457</guid>
-	<link>http://blog.vogella.com/2016/08/26/out-of-office-settings-for-eclipse-bugzilla-and-gerrit/</link>
-	<description>&lt;p&gt;As I got several requests how to show an “Out-of-office” in Gerrit and Bugzilla, I documented this in the &lt;a href=&quot;http://www.vogella.com/tutorials/EclipsePlatformDevelopment/article.html#out-of-office-for-gerrit-and-bugzilla&quot;&gt;Eclipse Platform Contribution tutorial&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Have fun.&lt;/p&gt;</description>
-	<pubDate>Fri, 26 Aug 2016 11:42:33 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Progress Update on IP @ Eclipse</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/VBsznlqJOcQ/</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/VBsznlqJOcQ/</link>
-	<description>We are rolling out the new Eclipse Contributor Agreement (ECA).&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/VBsznlqJOcQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Fri, 26 Aug 2016 06:59:00 +0000</pubDate>
-</item>
-<item>
-	<title>Christian Pontesegger: Oomph 03: Our First Project Setup</title>
-	<guid isPermaLink="false">tag:blogger.com,1999:blog-3460102793186140898.post-2388114787023833214</guid>
-	<link>http://codeandme.blogspot.com/2016/08/oomph-03-our-first-project-setup.html</link>
-	<description>We are going to prepare our first project setup with Oomph.&lt;br /&gt;&lt;br /&gt;Source code for this tutorial is available on github as a &lt;a href=&quot;https://github.com/Pontesegger/codeandme/blob/master/Code%20&amp;amp;%20Me%20Blog/oomph_03_first_project_setup.zip?raw=true&quot;&gt;single zip archive&lt;/a&gt;, as a &lt;a href=&quot;https://github.com/Pontesegger/codeandme/blob/master/Code%20&amp;amp;%20Me%20Blog/oomph_03_first_project_setup.psf?raw=true&quot;&gt;Team Project Set&lt;/a&gt; or you can &lt;a href=&quot;https://github.com/Pontesegger/codeandme/tree/master/oomph/03_first_project_setup&quot; target=&quot;_blank&quot;&gt;browse the files&lt;/a&gt; online.   &lt;br /&gt;&lt;br /&gt;For a list of all Oomph related tutorials see my &lt;a href=&quot;http://codeandme.blogspot.co.at/p/oomph-articles.html&quot; target=&quot;_blank&quot;&gt;Oomph Tutorials Overview&lt;/a&gt;.&lt;a href=&quot;http://codeandme.blogspot.co.at/p/oomph-articles.html&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;u&gt;&lt;b&gt;Step 1: A basic setup file&lt;/b&gt;&lt;/u&gt;&lt;br /&gt;&lt;br /&gt;Of course Oomph setups can be created within eclipse. So start with a new &lt;i&gt;General/Project&lt;/i&gt; named &lt;i&gt;com.codeandme.oomph&lt;/i&gt;. Now create a new &lt;i&gt;Oomph&lt;/i&gt; / &lt;i&gt;Setup Project Model&lt;/i&gt;. The wizard will setup all kinds of default tasks for us, but we want to start from scratch to understand all the tasks involved.&lt;br /&gt;&lt;br /&gt;So select a &lt;i&gt;Simple Project&lt;/i&gt;, provide a &lt;i&gt;Label&lt;/i&gt; &quot;Code and me&quot; and &lt;i&gt;Finish&lt;/i&gt; the wizard.&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-YIHJtPv54xg/V6CiqKd7sKI/AAAAAAAAAq4/M-Sg60DGBDAsO9jXQq3O_M6N3eQhlQg1ACLcB/s1600/oomph_01.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;308&quot; src=&quot;https://4.bp.blogspot.com/-YIHJtPv54xg/V6CiqKd7sKI/AAAAAAAAAq4/M-Sg60DGBDAsO9jXQq3O_M6N3eQhlQg1ACLcB/s320/oomph_01.png&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;The setup file created simply contains a root node for the project and a default stream named &lt;i&gt;Master&lt;/i&gt;.&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-6vFbK4ZVwp4/V6CjTXy8VyI/AAAAAAAAAq8/62dT1csdyNwZUgNnLJuZbJVzwFxL9ey8wCLcB/s1600/oomph_02.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://4.bp.blogspot.com/-6vFbK4ZVwp4/V6CjTXy8VyI/AAAAAAAAAq8/62dT1csdyNwZUgNnLJuZbJVzwFxL9ey8wCLcB/s1600/oomph_02.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;Not much of a setup yet, but we can already add it to our eclipse installer.&lt;br /&gt;&lt;br /&gt;&lt;u&gt;&lt;b&gt;Step 2: Adding the setup to the installer&lt;/b&gt;&lt;/u&gt;&lt;br /&gt;&lt;br /&gt;Launch the eclipse installer from our first tutorial, select an eclipse product and advance to page 2 of the wizard. There hit the + icon on the toolbar, select &lt;i&gt;Browse File System&lt;/i&gt; and select the setup file we just created. The setup will be added to the &lt;i&gt;&amp;lt;User&amp;gt;&lt;/i&gt; node. Not much sense installing our empty setup yet, but now the installer references our setup file and we can test it for each step we add. On each start of the installer the setup file gets reloaded, so you do not have to add the file each time you want to test it.&lt;br /&gt;&lt;u&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/u&gt;&lt;u&gt;&lt;b&gt;Step 3: Adding a simple ini file action&lt;/b&gt;&lt;/u&gt;&lt;br /&gt;&lt;br /&gt;One of the simplest actions to add is an ini file adjustment. As you might guess this adds entries to the eclipse.ini file provided with your product installation. Select the &lt;i&gt;Code and me&lt;/i&gt; node in your setup, then use the context menu to add a &lt;i&gt;New Child&lt;/i&gt; / &lt;i&gt;Eclipse ini&lt;/i&gt; task. Now we are going to adjust the task using the &lt;i&gt;Properties&lt;/i&gt; view.&lt;br /&gt;&lt;br /&gt;To change the initial heap size of your Java VM set &lt;i&gt;Option&lt;/i&gt; to &lt;i&gt;-Xms&lt;/i&gt;, &lt;i&gt;Value&lt;/i&gt; to &lt;i&gt;1024m&lt;/i&gt; and &lt;i&gt;VM&lt;/i&gt; to &lt;i&gt;true&lt;/i&gt;. The last parameter is needed for all &lt;a href=&quot;https://docs.oracle.com/javase/8/docs/technotes/tools/windows/java.html&quot; target=&quot;_blank&quot;&gt;Java VM properties&lt;/a&gt;. Set it to false when changing any eclipse.ini properties like &lt;i&gt;-showsplash&lt;/i&gt; or similar.&lt;br /&gt;&lt;br /&gt;Make sure to provide a unique &lt;i&gt;ID&lt;/i&gt; and a usable &lt;i&gt;Description&lt;/i&gt;. The IDs are important when we want to refer to a node later in our setup.&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://3.bp.blogspot.com/-yNuC-RBzhJs/V6CkpQ2AatI/AAAAAAAAArM/nv9iqNuEnD0ZkpmhOwXBmdCYolrdaQzzQCLcB/s1600/oomph_03.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;210&quot; src=&quot;https://3.bp.blogspot.com/-yNuC-RBzhJs/V6CkpQ2AatI/AAAAAAAAArM/nv9iqNuEnD0ZkpmhOwXBmdCYolrdaQzzQCLcB/s320/oomph_03.png&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;u&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/u&gt;&lt;u&gt;&lt;b&gt;Step 4: Add folders to structure your settings&lt;/b&gt;&lt;/u&gt;&lt;br /&gt;&lt;br /&gt;When we start adding multiple ini tasks we should cluster them. Therefore add a new &lt;i&gt;Compound&lt;/i&gt; item to your root node and D&amp;amp;D your ini settings in there. Compounds add more structure to your setup, but have no effect on the installation process.&lt;br /&gt;&lt;br /&gt;&lt;u&gt;&lt;b&gt;Optional: Investigate common tasks&lt;/b&gt;&lt;/u&gt;&lt;br /&gt;&lt;br /&gt;The scheme for adding new tasks is the same for all kinds of things. Add a node, adapt its properties, save and run your setup to test it. Good sources for tasks are the existing eclipse project setups. You may browse them by opening the catalog from the toolbar or from the main menu: &lt;i&gt;Navigate&lt;/i&gt; / &lt;i&gt;Open Setup&lt;/i&gt; / &lt;i&gt;Parent Models&lt;/i&gt; / &lt;i&gt;Catalog Index&lt;/i&gt;. We will have a closer look at dedicated tasks in the following tutorials.</description>
-	<pubDate>Thu, 25 Aug 2016 09:54:36 +0000</pubDate>
-	<author>noreply@blogger.com (Christian Pontesegger)</author>
 </item>
 
 </channel>

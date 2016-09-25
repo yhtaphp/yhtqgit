@@ -18,6 +18,7 @@ public class MyCheck{
 		
 		check.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 			
+			// 对java代码比较生疏， 
 			@Override
 			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 				// TODO Auto-generated method stub

@@ -1,0 +1,63 @@
+package com.example.spinner;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.R.string;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.Toast;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
+
+public class MainActivity extends Activity {
+
+	private List<String> list = new ArrayList<String>();
+	private Spinner spin;
+	private ArrayAdapter<String> adapter;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		// 添加下啦菜单的项
+		list.add("厦门");
+		list.add("深圳");
+		list.add("广州");
+		
+		spin = (Spinner)findViewById(R.id.list);
+		
+		// 为下啦列表设置一个适配器
+		adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item,list);
+		// 设置下啦列表的样式
+		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		
+		// 将适配器添加到spinner
+		spin.setAdapter(adapter);
+		spin.setOnItemSelectedListener(new OnItemSelectedListener() {
+	
+
+			@Override
+			public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+				// TODO Auto-generated method stub
+				Toast.makeText(getApplicationContext(), "你选中的时："+adapter.getItem(position), Toast.LENGTH_SHORT).show();
+				spin.setVisibility(View.VISIBLE);
+			}
+
+			@Override
+			public void onNothingSelected(AdapterView<?> parent) {
+				// TODO Auto-generated method stub
+				Toast.makeText(getApplicationContext(), "没有", Toast.LENGTH_SHORT).show();
+				spin.setVisibility(View.VISIBLE);
+			
+			}
+		});
+		
+		
+	}
+}

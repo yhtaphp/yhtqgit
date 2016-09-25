@@ -1,0 +1,20 @@
+package com.example.spinner;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.R.string;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class MainActivity extends Activity {
+
+	private List<string> list = new ArrayList<R.string>();
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+	}
+}

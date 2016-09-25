@@ -1,0 +1,29 @@
+package com.example.spinner;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.R.string;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+
+public class MainActivity extends Activity {
+
+	private List<String> list = new ArrayList<String>();
+	private Spinner spin;
+	private ArrayAdapter<String> adapter;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		list.add("厦门");
+		list.add("深圳");
+		list.add("广州");
+		
+	}
+}

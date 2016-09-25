@@ -1,0 +1,40 @@
+package com.example.spinner;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.R.string;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+
+public class MainActivity extends Activity {
+
+	private List<String> list = new ArrayList<String>();
+	private Spinner spin;
+	private ArrayAdapter<String> adapter;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		// 添加下啦菜单的项
+		list.add("厦门");
+		list.add("深圳");
+		list.add("广州");
+		
+		spin = (Spinner)findViewById(R.id.list);
+		
+		// 为下啦列表设置一个适配器
+		adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item,list);
+		// 设置下啦列表的样式
+		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		
+		// 将适配器添加到spinner
+		
+		
+	}
+}
